@@ -1,0 +1,117 @@
+# Changelog — HenshinLogos
+
+## v5.1
+
+### Interlineales: maquetación y lectura en pantalla
+- **Motor de renderizado**: se confirmó que `QTextDocument` (el motor de `QTextBrowser`) **ignora el ancho de los `inline-block`**. Medido: sin ancho, `width:48%` y `width:200px` dan exactamente la misma altura, una palabra por fila. Se abandonó el reparto por anchuras en favor de **tablas HTML**, la única forma fiable de dividir el panel en columnas en este motor.
+- **Tablas plana**: los bloques interlineales se colocan ahora en celdas `<td>` con número de columnas configurable, en lugar de `div` en línea.
+- **Columnas por vista**: 3 palabras por fila en el panel bíblico; 2 en las ventanas de comparación, donde cada módulo ocupa una celda estrecha (una cuarta parte del ancho) y los campos largos se partían en tres o cuatro líneas.
+- **Altura medida (Mateo 1-2, panel de 450 px)**: de 23.532 px sin tablas a 8.892 px con 3 columnas (**−62%**). Con 4 columnas el alto *sube* a 9.078 px porque la celda de 112 px parte casi todos los campos en 3 líneas: **3 columnas es el óptimo medido**, no una elección arbitraria.
+- **Grupos anidados (opción A)**: `OGNTeSxt` se maqueta con una tabla propia por grupo —cabecera a todo el ancho + tabla de palabras— en lugar de una tabla única aplanada, que se leía peor pese a ser más compacta.
+- Cabecera de grupo en una sola línea (`1:1.w1-w8 - sujeto`) con fondo gris y sangría por nivel de anidamiento, para que cada grupo se lea como una unidad.
+
+### Corrección de errores de maquetado
+- **Tablas anidadas en `ClauseProcessor`**: se generaban hasta 7 tablas anidadas en un mismo versículo; Qt fusionaba los `<td>` de cada nivel y cada palabra salía repetida hasta 6 veces (texto ilegible). Ahora cada grupo emite su tabla como hermana, nunca dentro de la del padre.
+- **`process_bible_refs()` vs. comillas**: esa función normaliza los atributos y convierte `class='c'` en `class="c"`. Los regex de `ClauseProcessor` solo aceptaban comillas simples, así que el bloque entero se descartaba y el versículo salía como `Could not find main content in: ...` (OGNTeSxt no se maquetaba en la ventana de cotejo). Ahora los tres patrones (`c`, `p`, `w`) aceptan ambas comillas.
+- **`procesar_codigos()` vs. mayúsculas**: baja las etiquetas a minúsculas (`<Tr>` → `<tr>`). Los regex de los processors buscaban las etiquetas en mayúsculas y los cierres ni siquiera coincidían (`<Mn>...</mn>`), así que ningún campo casaba y las palabras aparecían como una columna de paréntesis vacíos `()`. Se aplicó `re.IGNORECASE` a los diez patrones de `InterlinearProcessor` y a los tres de `InterlinearProcessor2`.
+- **`%` en estilos dentro de cadenas de formato**: `style='width:100%;'` se interpretaba como el especificador `%'` y lanzaba `ValueError`. El `except` de `process()` lo ocultaba devolviendo el texto crudo sin maquetar, lo que invalidaba cualquier medición hecha sobre esa salida. Documentado en el código.
+- Se verificaron los post-procesadores (`procesar_gramatica`, `procesar_interlinear_avanzado`, `procesar_interlinear_henshin`) etapa por etapa: no alteran las tablas.
+
+### Orden canónico de libros y datos
+- `dataInfo.BIBLE_BOOKS` sigue el orden canónico 1–73 de `BookAndAbbreviatures.py`. **Malaquías corregido a 4 capítulos**.
+- Confirmado que el marcado visible corrupto provenía de `processors.py` y no de los módulos: corregidos los casos `iNA27`, `iWH+` e `iMayoritario`.
+
+### Interfaz y información
+- **Botón ℹ️ (Información de HenshinLogos)**: 
+  - **Idioma correcto**: se consultaba `self.current_language_code`, una **copia obsoleta** que solo se actualiza en `MiscellaneousWidget.set_language()`. El diálogo de idioma (`language_dialog.py`) cambia el idioma llamando directamente a `language_manager.set_language()`, por lo que la copia se quedaba en `"Es_es"` y el botón abría `README.md` aunque la interfaz ya estuviera en inglés. Ahora consulta al `language_manager` y compara por prefijo (`es`), tolerando `Es_es`, `es_es`, `ES_ES` o `es`.
+  - **Markdown**: `setPlainText()` mostraba el README en crudo (`#`, `**`, `|---|`); ahora usa `setMarkdown()`, con cabeceras y tablas maquetadas (229 bloques en lugar de 280 líneas de texto plano).
+  - **Ruta del README**: deja de depender del directorio de trabajo; se busca junto al script, junto al ejecutable y en `_MEIPASS` cuando está compilada.
+  - Se eliminan las trazas `DEBUG` que se habían quedado y se restituye el texto seleccionable. La ventana mantiene una sola barra de título, la personalizada.
+
+### Productividad
+- **Journal**: edición de título y contenido.
+- **Relleno automático** de la siguiente referencia al añadir una entrada.
+- Los botones de eliminación se limpian correctamente al vaciar la lista.
+- **Exportación**: conversión de referencias correcta y **barras de progreso** durante la exportación.
+
+### Licencia
+- `LICENSE` actualizada a la **v5.1** y ampliada para reflejar con precisión una licencia **privativa** (uso libre, sin derecho a modificar ni redistribuir versiones derivadas sin autorización escrita).
+- Se aclara expresamente que **no** se concede ninguna licencia de software libre (MIT, GPL, Apache u otra).
+- Se prohíbe explícitamente la creación de forks, parches y compilaciones derivadas, sin importar si son publicadas o de uso interno compartido.
+- Nueva cláusula **4. DATOS Y FORMATOS**: los módulos que el usuario carga son de su responsabilidad exclusiva, y el software no verifica ni autoriza sus licencias.
+- Se recuerda en la cláusula de responsabilidad que la herramienta **no sustituye la enseñanza de una iglesia** ni el consejo pastoral.
+- **Corrección de una contradicción**: `README.md` y `README_EN.md` afirmaban que el proyecto estaba bajo licencia **MIT**, lo que es incompatible con `LICENSE`. Ambos README indican ahora que es software privativo y remiten a `LICENSE`.
+
+### Internacionalización
+- **22 claves nuevas** en `languages.json`, `en_US.json` y `pt_BR.json`, con las 74 traducciones en español, inglés y portugués respectivamente.
+- **Barra de progreso de exportación** (`hlk_exporting_*`, `hlk_export_done`), hasta ahora fuera del sistema de idiomas pese a ser la única ventana modal de LogosBuilder.
+- **Flujo completo de importación MySword** (8 claves) y **descripción de los cuatro tipos de módulo** en el diálogo de nuevo módulo.
+- **Cinta de navegación** (`Home`, `File`, `Tools`, `Export`) conectada a `tr()`; estaba fija en inglés.
+- `hlk_export_detail` se **divide en 4 claves** (`_bible`, `_commentary`, `_dictionary`, `_book`): una sola clave servía con tres textos distintos, así que la traducción del JSON habría mostrado "Versículo" al exportar un diccionario.
+- Retirada `hlk_lbToolTip` de los tres ficheros: la clave se compartía entre 8 botones con 4 textos diferentes y se eliminó por ser incorrecta.
+- `en_US.json` y `pt_BR.json` quedan alineados con `languages.json` (398 claves de interfaz en ambos) y con el contador `_ui_keys`.
+
+---
+
+## v5.0
+
+### Internacionalización y Localización
+- Implementado sistema completo de internacionalización (i18n) con `language_manager.py`.
+- Soporte para **Español** (Es_es) e **Inglés** (En_en) en toda la interfaz.
+- Archivo central de traducciones: `languages.json`.
+- Guía de usuario completa disponible en `README.md` (español) y `README_EN.md` (inglés).
+- Botón de información (ℹ️) carga automáticamente la guía en el idioma activo.
+
+### Temas Visuales y Personalización
+- Sistema de temas centralizado en `themes.py`.
+- **6 temas disponibles**: Dark, Light, Word, Futuristic, Neon, Future.
+- Tamaño de fuente global ajustable en tiempo real (8px–24px).
+- Espaciado entre versículos configurable (4px–30px).
+- Implementado **Modo Dislexia** con fuente **OpenDyslexic** (conmutador desde Configuración y persistencia en `settings.json`).
+- Distribución de paneles: Biblia solo, Biblia + Comentarios, o los 3 paneles.
+- Todos los ajustes se persisten automáticamente en `settings.json`.
+
+### Herramientas de Estudio Bíblico
+- **Línea de Tiempo Bíblica** (`timeline.py`): Visualización cronológica de eventos bíblicos con navegación a referencias.
+- **Vista Paralela** (`parallel_view.py`): Comparación de múltiples versiones bíblicas en columnas, con navegación por secciones.
+- **Comparador de Comentarios** (`cmtCompare.py`): Comparación lado a lado de dos módulos de comentarios.
+- **Comparar/Cotejar Versículos** (`compare_biblical_quotes.py`): Herramienta de cotejo textual entre versiones.
+- **Referencias Cruzadas** (`cross_reference_manager.py`, `cross_reference_panel.py`): Navegación entre versículos relacionados, activable/desactivable desde configuración.
+- **Buscador Avanzado con Fuzzy Search** (`search_engine.py`): Búsqueda exacta y aproximada con tokenización, filtros por Testamentos/secciones y resaltado de resultados.
+- **Tipología Bíblica** (`biblical_typology.py`): Panel de tipos y antitipos bíblicos (ej. cordero pascual → Cristo).
+
+### Productividad y Contenido
+- **Expositor / Visor de Presentaciones** (`expositor.py`, `expositorViewer.py`):
+  - Importación de archivos PowerPoint (.pptx) y PDF.
+  - Proyección con transiciones automáticas y atajos de teclado.
+  - Visor independiente `expositorViewer.py` para presentaciones.
+- **Historias Bíblicas Infantiles** (`BibleStoriesViewer.py`, `pdfS.py`):
+  - Visor de PDFs con historias bíblicas para niños.
+  - Conversión de PDF a HTML con navegación por páginas.
+- **Creador de Sermones y Anotaciones** (`sermon_creator.py`, `sermon_viewer.py`):
+  - Editor de notas personales con formato enriquecido (negrita, cursiva, listas, color).
+  - Vinculación de anotaciones a versículos específicos.
+  - Visualizador de anotaciones con soporte Strong y referencias bíblicas.
+- **Notas Personales por Versículo** (`personal_notes.py`): Guardado y recuperación de notas vinculadas a módulo/libro/capítulo/versículo.
+
+### Widgets y Utilidades del Sistema
+- **Versículo del Día** (`daily_verse_widget.py`):
+  - Widget independiente que muestra versículos en la esquina de la pantalla.
+  - Planes de lectura configurables con progreso persistente.
+  - Configuración de inicio automático con Windows (`startup_config_dialog.py`, `setup_startup.py`).
+- **Historial de Navegación** (`history_manager.py`): Botones ← → en la barra de título para avanzar/retroceder entre citas visitadas.
+- **Marcadores (Bookmarks)** (`bookmarks_panel.py`, `bookmarks.py`):
+  - Panel deslizante con organización por secciones temáticas.
+  - Guardado persistente en `bookmarks.json`.
+- **Persistencia de GUI** (`gui_persistence.py`):
+  - Detector de congelamiento (FreezeDetector).
+  - Auto-guardado de estado cada 30 segundos.
+  - Manejo seguro de excepciones no capturadas.
+
+### Infraestructura y Procesamiento
+- **Lazy Loading de SQLite** (`lazy_loader.py`): Apertura asíncrona de módulos para mejor rendimiento.
+- **Procesadores de Texto Bíblico** (`interlinear.py`, `processors.py`):
+  - Renderizado de texto hebreo/griego con dirección RTL.
+  - Soporte de interlineales y cláusulas gramaticales.
+  - Procesamiento de tags `<RF>`, `<TS>`, `<rtl>`, números Strong y códigos morfológicos.
+- **Indexación de Diccionarios** (`dctwidgets.py`): Construcción de índice maestro para búsquedas rápidas con caché persistente.

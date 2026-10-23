@@ -1,0 +1,22 @@
+{
+    "bibles": {
+        "Biblia de estudio palabra clave.bbl.mybible": "Biblia de estudio palabra clave",
+        "Biblia de Estudio Patristica.bbl.mybible": "Biblia de estudio Patristica (BEP)",
+        "OGNTe Proyect.bbl.mybible": "OGNTe+ Interlineal",
+        "Biblia de las Americas 1997 (Completa).bbl.mybible": "(BLA 97)",
+        "BIBLIA LATINOAMERICANA.bbl.mybible": "Biblia Latinoamericana",
+        "Biblia Martin Nieto.bbl.mybible": "Biblia_Martin_Nieto",
+        "Biblia Nueva Versión Purificada (NVP).bbl.mybible": "Nueva Version Purificada",
+        "Biblia Palabra de Dios para Todos  PDT .bbl.mybible": "Biblia Palabra de Dios para Todos [PDT]"
+    },
+    "commentaries": {
+        "DHH-D.cmt.mybible": "DHH-D"
+    },
+    "dictionaries": {
+        "Certeza.dct.mybible": "Certeza",
+        "Concordancia Septuaguinta (LXX).dct.mybible": "Concordancia de la Septuaguinta (LXX)",
+        "Nuevo Diccionario B¡blico (NDBI).dct.mybible": "Nuevo Diccionario Bíblico Vila y Escuain (NDBI)",
+        "Nuevo Diccionario Espiritualidad Cat¢lica (NDesp).dct.mybible": "Nuevo Diccionario de Espiritualidad Católica (NDesp)",
+        "Nuevo Diccionario Teolog¡a Moral Cat¢lica (NDTM).dct.mybible": "Nuevo Diccionario de Teología Moral Católica (NDTM)"
+    }
+}

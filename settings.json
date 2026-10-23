@@ -1,0 +1,26 @@
+{
+    "strong_db_path": null,
+    "morph_db_path": null,
+    "cross_refs_enabled": true,
+    "promises_enabled": false,
+    "ultima_cita": "Marcos 1:5",
+    "bible_version": "Biblia Latinoamericana",
+    "modulos_seleccionados": [
+        "Certeza.dct.mybible"
+    ],
+    "termino_seleccionado_diccionario": "AARÓN",
+    "search_mode": "actual",
+    "combobox_valores": {
+        "hcm_file": "DHH-D.cmt.mybible"
+    },
+    "theme": "Dark",
+    "language": "pt_BR",
+    "paneles": 3,
+    "font_size": 14,
+    "verse_spacing": 8,
+    "dyslexia_mode": false,
+    "selected_bible": null,
+    "rotation_interval": 30,
+    "current_plan": "bible_365",
+    "current_day": 1
+}
