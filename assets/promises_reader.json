@@ -1,0 +1,4289 @@
+{
+  "_categorias": {
+    "abuso_de_libertad": {
+      "es": "Abuso de libertad",
+      "en": "Abuse of freedom",
+      "pt": "Abuso de liberdade"
+    },
+    "adopcion": {
+      "es": "Adopción",
+      "en": "Adoption",
+      "pt": "Adoção"
+    },
+    "adoracion": {
+      "es": "Adoración",
+      "en": "Worship",
+      "pt": "Adoração"
+    },
+    "afliccion": {
+      "es": "Aflicción",
+      "en": "Affliction",
+      "pt": "Aflição"
+    },
+    "amenaza": {
+      "es": "Amenaza",
+      "en": "Threat",
+      "pt": "Ameaça"
+    },
+    "amor": {
+      "es": "Amor",
+      "en": "Love",
+      "pt": "Amor"
+    },
+    "amor_al_dinero": {
+      "es": "Amor al dinero",
+      "en": "Love of money",
+      "pt": "Amor ao dinheiro"
+    },
+    "amor_divino": {
+      "es": "Amor divino",
+      "en": "Divine love",
+      "pt": "Amor divino"
+    },
+    "ansiedad": {
+      "es": "Ansiedad",
+      "en": "Anxiety",
+      "pt": "Ansiedade"
+    },
+    "anticristo": {
+      "es": "Anticristo",
+      "en": "Antichrist",
+      "pt": "Anticristo"
+    },
+    "apostasía": {
+      "es": "Apostasía",
+      "en": "Apostasy",
+      "pt": "Apostasia"
+    },
+    "armadura_de_dios": {
+      "es": "Armadura de Dios",
+      "en": "Armor of God",
+      "pt": "Armadura de Deus"
+    },
+    "arrepentimiento": {
+      "es": "Arrepentimiento",
+      "en": "Repentance",
+      "pt": "Arrependimento"
+    },
+    "avaricia": {
+      "es": "Avaricia",
+      "en": "Avarice",
+      "pt": "Avarícia"
+    },
+    "bendicion": {
+      "es": "Bendición",
+      "en": "Blessing",
+      "pt": "Bênção"
+    },
+    "bendicion_naciones": {
+      "es": "Bendición a las naciones",
+      "en": "Blessing of the nations",
+      "pt": "Bênção às nações"
+    },
+    "buenas_obras": {
+      "es": "Buenas obras",
+      "en": "Good works",
+      "pt": "Boas obras"
+    },
+    "caida_de_reinos": {
+      "es": "Caída de reinos",
+      "en": "Fall of kingdoms",
+      "pt": "Queda de reinos"
+    },
+    "carne": {
+      "es": "Carne",
+      "en": "Flesh",
+      "pt": "Carne"
+    },
+    "conflicto": {
+      "es": "Conflicto",
+      "en": "Conflict",
+      "pt": "Conflito"
+    },
+    "confusion": {
+      "es": "Confusión",
+      "en": "Confusion",
+      "pt": "Confusão"
+    },
+    "conocimiento_de_dios": {
+      "es": "Conocimiento de Dios",
+      "en": "Knowledge of God",
+      "pt": "Conhecimento de Deus"
+    },
+    "consecuencias": {
+      "es": "Consecuencias",
+      "en": "Consequences",
+      "pt": "Consequências"
+    },
+    "consecuencias_del_pecado": {
+      "es": "Consecuencias del pecado",
+      "en": "Consequences of sin",
+      "pt": "Consequências do pecado"
+    },
+    "consuelo": {
+      "es": "Consuelo",
+      "en": "Comfort",
+      "pt": "Consolo"
+    },
+    "corona": {
+      "es": "Corona",
+      "en": "Crown",
+      "pt": "Coroa"
+    },
+    "cristo_supremo": {
+      "es": "Cristo supremo",
+      "en": "Christ the Supreme",
+      "pt": "Cristo Supremo"
+    },
+    "derramamiento_espiritu": {
+      "es": "Derramamiento del Espíritu",
+      "en": "Outpouring of the Spirit",
+      "pt": "Derramamento do Espírito"
+    },
+    "derrota": {
+      "es": "Derrota",
+      "en": "Defeat",
+      "pt": "Derrota"
+    },
+    "descanso": {
+      "es": "Descanso",
+      "en": "Rest",
+      "pt": "Descanso"
+    },
+    "descendencia": {
+      "es": "Descendencia",
+      "en": "Offspring",
+      "pt": "Descendência"
+    },
+    "desobediencia": {
+      "es": "Desobediencia",
+      "en": "Disobedience",
+      "pt": "Desobediência"
+    },
+    "desolacion": {
+      "es": "Desolación",
+      "en": "Desolation",
+      "pt": "Desolação"
+    },
+    "desorden": {
+      "es": "Desorden",
+      "en": "Disorder",
+      "pt": "Desordem"
+    },
+    "destruccion": {
+      "es": "Destrucción",
+      "en": "Destruction",
+      "pt": "Destruição"
+    },
+    "destruccion_nacional": {
+      "es": "Destrucción nacional",
+      "en": "National destruction",
+      "pt": "Destruição nacional"
+    },
+    "dia_del_juicio": {
+      "es": "Día del juicio",
+      "en": "Day of judgment",
+      "pt": "Dia do julgamento"
+    },
+    "direccion": {
+      "es": "Dirección de Dios",
+      "en": "God's direction",
+      "pt": "Direção de Deus"
+    },
+    "disciplina": {
+      "es": "Disciplina",
+      "en": "Discipline",
+      "pt": "Disciplina"
+    },
+    "division": {
+      "es": "División",
+      "en": "Division",
+      "pt": "Divisão"
+    },
+    "division_del_reino": {
+      "es": "División del reino",
+      "en": "Division of the kingdom",
+      "pt": "Divisão do reino"
+    },
+    "edificacion": {
+      "es": "Edificación",
+      "en": "Edification",
+      "pt": "Edificação"
+    },
+    "eleccion": {
+      "es": "Elección",
+      "en": "Election",
+      "pt": "Eleição"
+    },
+    "endurecimiento": {
+      "es": "Endurecimiento",
+      "en": "Hardening",
+      "pt": "Endurecimento"
+    },
+    "enfermedad": {
+      "es": "Enfermedad",
+      "en": "Disease",
+      "pt": "Doença"
+    },
+    "engaño": {
+      "es": "Engaño",
+      "en": "Deception",
+      "pt": "Engano"
+    },
+    "escandalo": {
+      "es": "Escándalo",
+      "en": "Scandal",
+      "pt": "Escândalo"
+    },
+    "escatologia": {
+      "es": "Escatología",
+      "en": "Eschatology",
+      "pt": "Escatologia"
+    },
+    "esperanza": {
+      "es": "Esperanza",
+      "en": "Hope",
+      "pt": "Esperança"
+    },
+    "espiritu_de_dios": {
+      "es": "Espíritu de Dios",
+      "en": "Spirit of God",
+      "pt": "Espírito de Deus"
+    },
+    "espiritu_nuevo": {
+      "es": "Espíritu nuevo",
+      "en": "New spirit",
+      "pt": "Novo espírito"
+    },
+    "espiritu_santo": {
+      "es": "Espíritu Santo",
+      "en": "Holy Spirit",
+      "pt": "Espírito Santo"
+    },
+    "estabilidad_de_la_creacion": {
+      "es": "Estabilidad de la creación",
+      "en": "Stability of creation",
+      "pt": "Estabilidade da criação"
+    },
+    "exclusion": {
+      "es": "Exclusión",
+      "en": "Exclusion",
+      "pt": "Exclusão"
+    },
+    "exilio": {
+      "es": "Exilio",
+      "en": "Exile",
+      "pt": "Exílio"
+    },
+    "exilio_local": {
+      "es": "Exilio local",
+      "en": "Local exile",
+      "pt": "Exílio local"
+    },
+    "expiacion": {
+      "es": "Expiación",
+      "en": "Atonement",
+      "pt": "Expiação"
+    },
+    "falsas_doctrinas": {
+      "es": "Falsas doctrinas",
+      "en": "False doctrines",
+      "pt": "Falsas doutrinas"
+    },
+    "falsos_apostoles": {
+      "es": "Falsos apóstoles",
+      "en": "False apostles",
+      "pt": "Falsos apóstolos"
+    },
+    "falsos_evangelios": {
+      "es": "Falsos evangelios",
+      "en": "False gospels",
+      "pt": "Falsos evangelhos"
+    },
+    "falsos_maestros": {
+      "es": "Falsos maestros",
+      "en": "False teachers",
+      "pt": "Falsos mestres"
+    },
+    "familia": {
+      "es": "Familia",
+      "en": "Family",
+      "pt": "Família"
+    },
+    "favor": {
+      "es": "Favor",
+      "en": "Favor",
+      "pt": "Favor"
+    },
+    "fe": {
+      "es": "Fe",
+      "en": "Faith",
+      "pt": "Fé"
+    },
+    "fortaleza": {
+      "es": "Fortaleza",
+      "en": "Strength",
+      "pt": "Fortaleza"
+    },
+    "gloria": {
+      "es": "Gloria",
+      "en": "Glory",
+      "pt": "Glória"
+    },
+    "gozo": {
+      "es": "Gozo",
+      "en": "Joy",
+      "pt": "Gozo"
+    },
+    "gracia": {
+      "es": "Gracia",
+      "en": "Grace",
+      "pt": "Graça"
+    },
+    "gratitud": {
+      "es": "Gratitud",
+      "en": "Gratitude",
+      "pt": "Gratidão"
+    },
+    "hambre": {
+      "es": "Hambre",
+      "en": "Hunger",
+      "pt": "Fome"
+    },
+    "herencia": {
+      "es": "Herencia",
+      "en": "Inheritance",
+      "pt": "Herança"
+    },
+    "hipocresia": {
+      "es": "Hipocresía",
+      "en": "Hypocrisy",
+      "pt": "Hipocrisia"
+    },
+    "hospitalidad": {
+      "es": "Hospitalidad",
+      "en": "Hospitality",
+      "pt": "Hospitalidade"
+    },
+    "humildad": {
+      "es": "Humildad",
+      "en": "Humility",
+      "pt": "Humildade"
+    },
+    "humillacion": {
+      "es": "Humillación",
+      "en": "Humiliation",
+      "pt": "Humilhação"
+    },
+    "idolatria": {
+      "es": "Idolatría",
+      "en": "Idolatry",
+      "pt": "Idolatria"
+    },
+    "iglesia": {
+      "es": "Iglesia",
+      "en": "Church",
+      "pt": "Igreja"
+    },
+    "impiedad": {
+      "es": "Impiedad",
+      "en": "Impiety",
+      "pt": "Impiedade"
+    },
+    "impureza": {
+      "es": "Impureza",
+      "en": "Impurity",
+      "pt": "Impureza"
+    },
+    "incredulidad": {
+      "es": "Incredulidad",
+      "en": "Disbelief",
+      "pt": "Incredulidade"
+    },
+    "infidelidad": {
+      "es": "Infidelidad",
+      "en": "Infidelity",
+      "pt": "Infidelidade"
+    },
+    "injusticia": {
+      "es": "Injusticia",
+      "en": "Injustice",
+      "pt": "Injustiça"
+    },
+    "inmoralidad": {
+      "es": "Inmoralidad",
+      "en": "Immorality",
+      "pt": "Imoralidade"
+    },
+    "inspiracion_escritura": {
+      "es": "Inspiración de las Escrituras",
+      "en": "Inspiration of Scripture",
+      "pt": "Inspiração das Escrituras"
+    },
+    "intercesion": {
+      "es": "Intercesión",
+      "en": "Intercession",
+      "pt": "Intercessão"
+    },
+    "ira_de_dios": {
+      "es": "Ira de Dios",
+      "en": "Wrath of God",
+      "pt": "Ira de Deus"
+    },
+    "irreverencia": {
+      "es": "Irreverencia",
+      "en": "Irreverence",
+      "pt": "Irreverência"
+    },
+    "juicio": {
+      "es": "Juicio",
+      "en": "Judgment",
+      "pt": "Julgamento"
+    },
+    "juicio_divino": {
+      "es": "Juicio divino",
+      "en": "Divine judgment",
+      "pt": "Julgamento divino"
+    },
+    "juicio_final": {
+      "es": "Juicio final",
+      "en": "Final judgment",
+      "pt": "Julgamento final"
+    },
+    "juicio_nacional": {
+      "es": "Juicio nacional",
+      "en": "National judgment",
+      "pt": "Julgamento nacional"
+    },
+    "juicio_naciones": {
+      "es": "Juicio sobre las naciones",
+      "en": "Judgment on the nations",
+      "pt": "Julgamento sobre as nações"
+    },
+    "juicio_por_homicidio": {
+      "es": "Juicio por Homicidio",
+      "en": "Judgment for murder",
+      "pt": "Julgamento por homicídio"
+    },
+    "juicio_sobre_naciones": {
+      "es": "Juicio sobre las naciones",
+      "en": "Judgment on the nations",
+      "pt": "Julgamento sobre as nações"
+    },
+    "justicia": {
+      "es": "Justicia",
+      "en": "Justice",
+      "pt": "Justiça"
+    },
+    "justificacion": {
+      "es": "Justificación",
+      "en": "Justification",
+      "pt": "Justificação"
+    },
+    "legalismo": {
+      "es": "Legalismo",
+      "en": "Legalism",
+      "pt": "Legalismo"
+    },
+    "lengua": {
+      "es": "Lengua",
+      "en": "Tongue",
+      "pt": "Língua"
+    },
+    "liberacion": {
+      "es": "Liberación",
+      "en": "Deliverance",
+      "pt": "Libertação"
+    },
+    "libertad": {
+      "es": "Libertad",
+      "en": "Freedom",
+      "pt": "Liberdade"
+    },
+    "liderazgo": {
+      "es": "Liderazgo",
+      "en": "Leadership",
+      "pt": "Liderança"
+    },
+    "maldad": {
+      "es": "Maldad",
+      "en": "Evil",
+      "pt": "Maldade"
+    },
+    "maldicion": {
+      "es": "Maldición",
+      "en": "Curse",
+      "pt": "Maldição"
+    },
+    "mezcla_con_pueblos": {
+      "es": "Mezcla con los pueblos",
+      "en": "Mixing with the peoples",
+      "pt": "Mistura com os povos"
+    },
+    "milagros": {
+      "es": "Milagros",
+      "en": "Miracles",
+      "pt": "Milagres"
+    },
+    "misericordia": {
+      "es": "Misericordia",
+      "en": "Mercy",
+      "pt": "Misericórdia"
+    },
+    "misiones": {
+      "es": "Misiones",
+      "en": "Missions",
+      "pt": "Missões"
+    },
+    "muerte": {
+      "es": "Muerte",
+      "en": "Death",
+      "pt": "Morte"
+    },
+    "muerte_eterna": {
+      "es": "Muerte eterna",
+      "en": "Eternal death",
+      "pt": "Morte eterna"
+    },
+    "mundanalidad": {
+      "es": "Mundanidad",
+      "en": "Worldliness",
+      "pt": "Mundanidade"
+    },
+    "necedad": {
+      "es": "Necedad",
+      "en": "Foolishness",
+      "pt": "Necedade"
+    },
+    "negligencia": {
+      "es": "Negligencia",
+      "en": "Negligence",
+      "pt": "Negligência"
+    },
+    "nueva_creacion": {
+      "es": "Nueva creación",
+      "en": "New creation",
+      "pt": "Nova criação"
+    },
+    "nuevo_pacto": {
+      "es": "Nuevo pacto",
+      "en": "New covenant",
+      "pt": "Nova aliança"
+    },
+    "obediencia": {
+      "es": "Obediencia",
+      "en": "Obedience",
+      "pt": "Obediência"
+    },
+    "odio": {
+      "es": "Odio",
+      "en": "Hatred",
+      "pt": "Ódio"
+    },
+    "odio_al_mundo": {
+      "es": "Odio al mundo",
+      "en": "Hatred of the world",
+      "pt": "Ódio ao mundo"
+    },
+    "oposicion": {
+      "es": "Oposición",
+      "en": "Opposition",
+      "pt": "Oposição"
+    },
+    "opresion": {
+      "es": "Opresión",
+      "en": "Oppression",
+      "pt": "Opressão"
+    },
+    "opresion_extranjera": {
+      "es": "Opresión extranjera",
+      "en": "Foreign oppression",
+      "pt": "Opressão estrangeira"
+    },
+    "oracion": {
+      "es": "Oración",
+      "en": "Prayer",
+      "pt": "Oração"
+    },
+    "oracion_respondida": {
+      "es": "Oración respondida",
+      "en": "Answered prayer",
+      "pt": "Oração respondida"
+    },
+    "orgullo": {
+      "es": "Orgullo",
+      "en": "Pride",
+      "pt": "Orgulho"
+    },
+    "pacto": {
+      "es": "Pacto",
+      "en": "Covenant",
+      "pt": "Aliança"
+    },
+    "paz": {
+      "es": "Paz",
+      "en": "Peace",
+      "pt": "Paz"
+    },
+    "pecado": {
+      "es": "Pecado",
+      "en": "Sin",
+      "pt": "Pecado"
+    },
+    "pecado_nacional": {
+      "es": "Pecado nacional",
+      "en": "National sin",
+      "pt": "Pecado nacional"
+    },
+    "pecado_y_consecuencias": {
+      "es": "Pecado y sus consecuencias",
+      "en": "Sin and its consequences",
+      "pt": "Pecado e suas consequências"
+    },
+    "peligro": {
+      "es": "Peligro",
+      "en": "Danger",
+      "pt": "Perigo"
+    },
+    "perdicion": {
+      "es": "Perdición",
+      "en": "Perdition",
+      "pt": "Perdição"
+    },
+    "perdicion_del_pecado": {
+      "es": "Perdición del pecado",
+      "en": "Perdition of sin",
+      "pt": "Perdição do pecado"
+    },
+    "perdon": {
+      "es": "Perdón",
+      "en": "Forgiveness",
+      "pt": " perdão"
+    },
+    "pereza": {
+      "es": "Pereza",
+      "en": "Laziness",
+      "pt": "Preguiça"
+    },
+    "permanencia_en_cristo": {
+      "es": "Permanencia en Cristo",
+      "en": "Abiding in Christ",
+      "pt": "Permanência em Cristo"
+    },
+    "persecucion": {
+      "es": "Persecución",
+      "en": "Persecution",
+      "pt": "Perseguição"
+    },
+    "perseverancia": {
+      "es": "Perseverancia",
+      "en": "Perseverance",
+      "pt": "Perseverança"
+    },
+    "plaga": {
+      "es": "Plaga",
+      "en": "Plague",
+      "pt": "Praga"
+    },
+    "plagas": {
+      "es": "Plagas",
+      "en": "Plagues",
+      "pt": "Pragas"
+    },
+    "presencia": {
+      "es": "Presencia",
+      "en": "Presence",
+      "pt": "Presença"
+    },
+    "presencia_de_dios": {
+      "es": "Presencia de Dios",
+      "en": "Presence of God",
+      "pt": "Presença de Deus"
+    },
+    "preservacion": {
+      "es": "Preservación",
+      "en": "Preservation",
+      "pt": "Preservação"
+    },
+    "profanacion": {
+      "es": "Profanación",
+      "en": "Profanation",
+      "pt": "Profanação"
+    },
+    "promesas": {
+      "es": "Promesas",
+      "en": "Promises",
+      "pt": "Promessas"
+    },
+    "prosperidad": {
+      "es": "Prosperidad",
+      "en": "Prosperity",
+      "pt": "Prosperidade"
+    },
+    "proteccion": {
+      "es": "Protección",
+      "en": "Protection",
+      "pt": "Proteção"
+    },
+    "providencia": {
+      "es": "Providencia",
+      "en": "Providence",
+      "pt": "Providência"
+    },
+    "provision": {
+      "es": "Provisión",
+      "en": "Provision",
+      "pt": "Provisão"
+    },
+    "prueba": {
+      "es": "Prueba",
+      "en": "Testing",
+      "pt": "Prova"
+    },
+    "rebeldia": {
+      "es": "Rebeldía",
+      "en": "Rebellion",
+      "pt": "Rebeldia"
+    },
+    "rebelion": {
+      "es": "Rebelión",
+      "en": "Rebellion",
+      "pt": "Rebeldia"
+    },
+    "rechazo": {
+      "es": "Rechazo",
+      "en": "Rejection",
+      "pt": "Rejeição"
+    },
+    "rechazo_de_autoridad": {
+      "es": "Rechazo de la autoridad",
+      "en": "Rejection of authority",
+      "pt": "Rejeição da autoridade"
+    },
+    "rechazo_de_la_verdad": {
+      "es": "Rechazo de la verdad",
+      "en": "Rejection of the truth",
+      "pt": "Rejeição da verdade"
+    },
+    "recompensa": {
+      "es": "Recompensa",
+      "en": "Reward",
+      "pt": "Recompensa"
+    },
+    "reconciliacion": {
+      "es": "Reconciliación",
+      "en": "Reconciliation",
+      "pt": "Reconciliação"
+    },
+    "redencion": {
+      "es": "Redención",
+      "en": "Redemption",
+      "pt": "Redenção"
+    },
+    "reino": {
+      "es": "Reino",
+      "en": "Kingdom",
+      "pt": "Reino"
+    },
+    "restauracion": {
+      "es": "Restauración",
+      "en": "Restoration",
+      "pt": "Restauração"
+    },
+    "resurreccion": {
+      "es": "Resurrección",
+      "en": "Resurrection",
+      "pt": "Ressurreição"
+    },
+    "revelacion": {
+      "es": "Revelación",
+      "en": "Revelation",
+      "pt": "Revelação"
+    },
+    "reversion": {
+      "es": "Reversión",
+      "en": "Reversal",
+      "pt": "Reversão"
+    },
+    "sabiduria": {
+      "es": "Sabiduría",
+      "en": "Wisdom",
+      "pt": "Sabedoria"
+    },
+    "salvacion": {
+      "es": "Salvación",
+      "en": "Salvation",
+      "pt": "Salvação"
+    },
+    "salvacion_mesiánica": {
+      "es": "Salvación mesiánica",
+      "en": "Messianic salvation",
+      "pt": "Salvação messiânica"
+    },
+    "sanidad": {
+      "es": "Sanidad",
+      "en": "Healing",
+      "pt": "Cura"
+    },
+    "santidad": {
+      "es": "Santidad",
+      "en": "Holiness",
+      "pt": "Santidade"
+    },
+    "santificacion": {
+      "es": "Santificación",
+      "en": "Sanctification",
+      "pt": "Santificação"
+    },
+    "seguridad": {
+      "es": "Seguridad",
+      "en": "Security",
+      "pt": "Segurança"
+    },
+    "separacion_de_dios": {
+      "es": "Separación de Dios",
+      "en": "Separation from God",
+      "pt": "Separação de Deus"
+    },
+    "sequedad": {
+      "es": "Sequedad",
+      "en": "Drought",
+      "pt": "Seca"
+    },
+    "siembra_y_cosecha": {
+      "es": "Siembra y cosecha",
+      "en": "Sowing and reaping",
+      "pt": "Semear e colher"
+    },
+    "sufrimiento": {
+      "es": "Sufrimiento",
+      "en": "Suffering",
+      "pt": "Sofrimento"
+    },
+    "templo": {
+      "es": "Templo",
+      "en": "Temple",
+      "pt": "Templo"
+    },
+    "templo_del_espiritu": {
+      "es": "Templo del Espíritu",
+      "en": "Temple of the Spirit",
+      "pt": "Templo do Espírito"
+    },
+    "tierra_prometida": {
+      "es": "Tierra prometida",
+      "en": "Promised land",
+      "pt": "Terra prometida"
+    },
+    "tormenta": {
+      "es": "Tormenta",
+      "en": "Storm",
+      "pt": "Tempestade"
+    },
+    "unidad": {
+      "es": "Unidad",
+      "en": "Unity",
+      "pt": "Unidade"
+    },
+    "vanidad": {
+      "es": "Vanidad",
+      "en": "Vanity",
+      "pt": "Vaidade"
+    },
+    "verdad": {
+      "es": "Verdad",
+      "en": "Truth",
+      "pt": "Verdade"
+    },
+    "victoria": {
+      "es": "Victoria",
+      "en": "Victory",
+      "pt": "Vitória"
+    },
+    "vida": {
+      "es": "Vida",
+      "en": "Life",
+      "pt": "Vida"
+    },
+    "vida_eterna": {
+      "es": "Vida eterna",
+      "en": "Eternal life",
+      "pt": "Vida eterna"
+    },
+    "vida_larga": {
+      "es": "Vida larga",
+      "en": "Long life",
+      "pt": "Vida longa"
+    },
+    "vida_nueva": {
+      "es": "Vida nueva",
+      "en": "New life",
+      "pt": "Nova vida"
+    },
+    "vigilancia": {
+      "es": "Vigilancia",
+      "en": "Watchfulness",
+      "pt": "Vigilância"
+    }
+  },
+  "_tipos": {
+    "bendicion": {
+      "es": "Bendición",
+      "en": "blessing",
+      "pt": "bênção"
+    },
+    "advertencia": {
+      "es": "Advertencia",
+      "en": "warning",
+      "pt": "advertência"
+    },
+    "castigo": {
+      "es": "Castigo",
+      "en": "punishment",
+      "pt": "castigo"
+    },
+    "proteccion": {
+      "es": "Protección",
+      "en": "protection",
+      "pt": "proteção"
+    }
+  },
+  "reino": [
+    [
+      "bendicion",
+      "1 Cr 17:11-14, 1 Cr 22:10, 1 Cr 28:5-7"
+    ],
+    [
+      "bendicion",
+      "1 R 2:4, 1 R 6:12-13, 1 R 8:20-21"
+    ],
+    [
+      "bendicion",
+      "1 S 9:16, 1 S 10:1, 1 S 16:1, 1 S 16:13"
+    ],
+    [
+      "bendicion",
+      "1Th 2:12"
+    ],
+    [
+      "bendicion",
+      "2 S 7:12-16, 2 S 7:25-29"
+    ],
+    [
+      "bendicion",
+      "Act 1:3, Act 8:12, Act 14:22, Act 19:8, Act 28:31"
+    ],
+    [
+      "bendicion",
+      "Dn 2:44, Dn 7:14"
+    ],
+    [
+      "bendicion",
+      "Heb 12:28"
+    ],
+    [
+      "bendicion",
+      "Luc 4:43, Luc 6:20, Luc 12:31-32, Luc 18:16-17, Luc 22:29-30"
+    ],
+    [
+      "bendicion",
+      "Mar 1:15, Mar 4:26-32, Mar 9:1, Mar 10:14-15, Mar 12:34"
+    ],
+    [
+      "bendicion",
+      "Mat 3:2, Mat 4:17, Mat 5:3, Mat 5:10, Mat 6:33, Mat 19:14, Mat 25:34"
+    ],
+    [
+      "bendicion",
+      "Mi 4:1-4"
+    ],
+    [
+      "bendicion",
+      "Abd 1:21"
+    ],
+    [
+      "bendicion",
+      "Phi 3:20"
+    ],
+    [
+      "bendicion",
+      "Rev 11:15, Rev 20:4, Rev 22:5"
+    ],
+    [
+      "bendicion",
+      "Zac 9:9, Zac 14:9"
+    ]
+  ],
+  "presencia": [
+    [
+      "bendicion",
+      "1 Cr 13:14, 1 Cr 16:11, 1 Cr 17:8"
+    ],
+    [
+      "bendicion",
+      "1 R 8:10-11, 1 R 9:3"
+    ],
+    [
+      "bendicion",
+      "1 S 3:19, 1 S 18:12, 1 S 18:14"
+    ],
+    [
+      "bendicion",
+      "2 S 7:9, 2 S 7:29"
+    ],
+    [
+      "bendicion",
+      "2Ti 4:17"
+    ],
+    [
+      "bendicion",
+      "Dt 4:7, Dt 31:6, Dt 31:8"
+    ],
+    [
+      "bendicion",
+      "Ex 3:12, Ex 29:45-46, Ex 33:14"
+    ],
+    [
+      "bendicion",
+      "Ez 37:27, Ez 48:35"
+    ],
+    [
+      "bendicion",
+      "Gn 21:22, Gn 26:3, Gn 26:24, Gn 28:15, Gn 31:3"
+    ],
+    [
+      "bendicion",
+      "Hag 1:13, Hag 2:4"
+    ],
+    [
+      "bendicion",
+      "Jos 1:5, Jos 1:9, Jos 3:7"
+    ],
+    [
+      "bendicion",
+      "Lv 26:11-12"
+    ],
+    [
+      "bendicion",
+      "Luc 24:49"
+    ],
+    [
+      "bendicion",
+      "Mar 16:20"
+    ],
+    [
+      "bendicion",
+      "Mat 18:20, Mat 28:20"
+    ],
+    [
+      "bendicion",
+      "Nm 14:14, Nm 35:34"
+    ],
+    [
+      "bendicion",
+      "Zac 2:10"
+    ]
+  ],
+  "proteccion": [
+    [
+      "bendicion",
+      "1 Cr 5:20, 1 Cr 18:6"
+    ],
+    [
+      "bendicion",
+      "1 R 8:57-58"
+    ],
+    [
+      "bendicion",
+      "1Pe 1:5, 1Pe 5:7"
+    ],
+    [
+      "bendicion",
+      "1 S 19:5, 1 S 23:14"
+    ],
+    [
+      "bendicion",
+      "1Th 5:23"
+    ],
+    [
+      "bendicion",
+      "2 Cr 20:17, 2 Cr 32:20-22"
+    ],
+    [
+      "bendicion",
+      "2 R 6:16-17, 2 R 19:34-35"
+    ],
+    [
+      "bendicion",
+      "2 S 22:2-4, 2 S 22:31"
+    ],
+    [
+      "bendicion",
+      "Act 5:19-20, Act 12:6-11, Act 27:23-24"
+    ],
+    [
+      "bendicion",
+      "Dn 3:25, Dn 6:22"
+    ],
+    [
+      "bendicion",
+      "Dt 7:20-23, Dt 20:4, Dt 31:6, Dt 31:8"
+    ],
+    [
+      "bendicion",
+      "Est 4:16, Est 7:3-4, Est 9:1"
+    ],
+    [
+      "bendicion",
+      "Ex 14:13-14, Ex 23:20, Ex 23:22"
+    ],
+    [
+      "bendicion",
+      "Esd 8:21-23, Esd 8:31"
+    ],
+    [
+      "bendicion",
+      "Gn 15:1, Gn 26:24, Gn 28:15, Gn 31:3, Gn 46:3-4"
+    ],
+    [
+      "bendicion",
+      "Is 41:10, Is 43:2, Is 54:17"
+    ],
+    [
+      "bendicion",
+      "Jer 1:8, Jer 15:20-21"
+    ],
+    [
+      "bendicion",
+      "Job 1:10"
+    ],
+    [
+      "bendicion",
+      "Joh 10:27-29, Joh 17:11-15"
+    ],
+    [
+      "bendicion",
+      "Jos 1:5, Jos 10:8, Jos 23:10"
+    ],
+    [
+      "bendicion",
+      "Jue 2:18, Jue 6:12, Jue 7:2"
+    ],
+    [
+      "bendicion",
+      "Lv 26:6-8"
+    ],
+    [
+      "bendicion",
+      "Mar 4:35-41, Mar 16:18"
+    ],
+    [
+      "bendicion",
+      "Mat 10:29-31, Mat 28:20"
+    ],
+    [
+      "bendicion",
+      "Nah 1:7"
+    ],
+    [
+      "bendicion",
+      "Neh 4:14, Neh 4:20, Neh 6:9"
+    ],
+    [
+      "bendicion",
+      "Nm 10:35, Nm 14:9"
+    ],
+    [
+      "bendicion",
+      "Pr 2:11-12, Pr 3:23-26"
+    ],
+    [
+      "bendicion",
+      "Sal 23:1-4, Sal 91:1-4, Sal 121:5-8"
+    ],
+    [
+      "bendicion",
+      "Rt 2:8-9, Rt 3:10"
+    ]
+  ],
+  "victoria": [
+    [
+      "bendicion",
+      "1 Cr 14:15, 1 Cr 18:13"
+    ],
+    [
+      "bendicion",
+      "1Co 10:13, 1Co 15:54-58"
+    ],
+    [
+      "bendicion",
+      "1Jn 5:4-5"
+    ],
+    [
+      "bendicion",
+      "1 S 7:10-12, 1 S 14:6, 1 S 17:45-47"
+    ],
+    [
+      "bendicion",
+      "2 Cr 20:22-24"
+    ],
+    [
+      "bendicion",
+      "2Co 2:14, 2Co 10:3-5"
+    ],
+    [
+      "bendicion",
+      "2 S 5:19-25, 2 S 8:6, 2 S 8:14"
+    ],
+    [
+      "bendicion",
+      "Dt 20:1-4, Dt 28:7"
+    ],
+    [
+      "bendicion",
+      "Est 9:1-2, Est 9:16"
+    ],
+    [
+      "bendicion",
+      "Ex 23:22-23, Ex 34:24"
+    ],
+    [
+      "bendicion",
+      "Jos 6:2, Jos 8:1, Jos 10:19, Jos 23:3"
+    ],
+    [
+      "bendicion",
+      "Rev 1:5-6, Rev 5:9-10, Rev 12:11, Rev 17:14, Rev 19:11-16, Rev 21:6-7"
+    ],
+    [
+      "bendicion",
+      "Rom 6:14, Rom 8:37, Rom 12:21, Rom 16:20"
+    ]
+  ],
+  "pacto": [
+    [
+      "bendicion",
+      "1 Cr 17:11-14"
+    ],
+    [
+      "bendicion",
+      "1 R 8:23, 1 R 11:38"
+    ],
+    [
+      "bendicion",
+      "2 Cr 6:16, 2 Cr 21:7"
+    ],
+    [
+      "bendicion",
+      "2 S 7:11-13, 2 S 23:5"
+    ],
+    [
+      "bendicion",
+      "Ex 19:5-6, Ex 24:7-8, Ex 34:10"
+    ],
+    [
+      "bendicion",
+      "Gn 6:18, Gn 9:9-17, Gn 17:7-8"
+    ],
+    [
+      "bendicion",
+      "Jer 32:38-40, Jer 33:3"
+    ],
+    [
+      "bendicion",
+      "Lv 26:9, Lv 26:42, Lv 26:45"
+    ],
+    [
+      "bendicion",
+      "Neh 9:38, Neh 10:29"
+    ],
+    [
+      "bendicion",
+      "Nm 25:12-13"
+    ],
+    [
+      "bendicion",
+      "Sal 89:34, Sal 105:8"
+    ]
+  ],
+  "adoracion": [
+    [
+      "bendicion",
+      "1 Cr 16:29, 1 Cr 29:10-13"
+    ],
+    [
+      "bendicion",
+      "Rev 4:8-11, Rev 5:13-14, Rev 19:1-6"
+    ]
+  ],
+  "sabiduria": [
+    [
+      "bendicion",
+      "1 Cr 22:12"
+    ],
+    [
+      "bendicion",
+      "1Co 1:24-31, 1Co 2:6-16"
+    ],
+    [
+      "bendicion",
+      "1 R 3:12, 1 R 4:29-30"
+    ],
+    [
+      "bendicion",
+      "2 Cr 1:10-12"
+    ],
+    [
+      "bendicion",
+      "Col 1:9-10"
+    ],
+    [
+      "bendicion",
+      "Dn 1:17, Dn 2:20-21"
+    ],
+    [
+      "bendicion",
+      "Ec 7:12, Ec 8:5"
+    ],
+    [
+      "bendicion",
+      "Eph 1:17-18"
+    ],
+    [
+      "bendicion",
+      "Esd 7:10"
+    ],
+    [
+      "bendicion",
+      "Jas 1:5-6, Jas 3:17"
+    ],
+    [
+      "bendicion",
+      "Job 28:28, Job 38:1-4"
+    ],
+    [
+      "bendicion",
+      "Neh 2:12"
+    ],
+    [
+      "bendicion",
+      "Pr 1:7, Pr 2:6, Pr 3:13-18"
+    ],
+    [
+      "bendicion",
+      "Sal 1:1-3, Sal 119:105"
+    ]
+  ],
+  "desobediencia": [
+    [
+      "advertencia",
+      "1 Cr 10:13-14"
+    ],
+    [
+      "advertencia",
+      "1 R 8:33-34, 1 R 9:6"
+    ],
+    [
+      "advertencia",
+      "1Pe 1:14"
+    ],
+    [
+      "advertencia",
+      "1 S 2:30, 1 S 13:13-14, 1 S 15:22-23"
+    ],
+    [
+      "advertencia",
+      "2 Cr 12:1-2, 2 Cr 24:20"
+    ],
+    [
+      "advertencia",
+      "2Co 10:6, 2Co 13:2"
+    ],
+    [
+      "advertencia",
+      "2 R 17:13-15, 2 R 22:16-17"
+    ],
+    [
+      "advertencia",
+      "Dt 28:15, Dt 28:20, Dt 28:45"
+    ],
+    [
+      "advertencia",
+      "Eph 2:2, Eph 5:6"
+    ],
+    [
+      "advertencia",
+      "Ex 15:26, Ex 19:5"
+    ],
+    [
+      "advertencia",
+      "Esd 9:10-12"
+    ],
+    [
+      "advertencia",
+      "Heb 12:25"
+    ],
+    [
+      "advertencia",
+      "Jer 6:16-19, Jer 11:10"
+    ],
+    [
+      "advertencia",
+      "Jon 1:3"
+    ],
+    [
+      "advertencia",
+      "Jos 1:18, Jos 7:11-12, Jos 23:12-13"
+    ],
+    [
+      "advertencia",
+      "Jue 2:17, Jue 6:1, Jue 10:6-7"
+    ],
+    [
+      "advertencia",
+      "Lv 26:14-15"
+    ],
+    [
+      "advertencia",
+      "Neh 13:26-27"
+    ],
+    [
+      "advertencia",
+      "Nm 15:30-31, Nm 20:12"
+    ],
+    [
+      "advertencia",
+      "Rom 2:8-9, Rom 6:16, Rom 13:2"
+    ]
+  ],
+  "muerte": [
+    [
+      "castigo",
+      "1 Cr 10:14"
+    ],
+    [
+      "castigo",
+      "1Co 11:30"
+    ],
+    [
+      "castigo",
+      "1 S 2:34, 1 S 4:18, 1 S 31:4"
+    ],
+    [
+      "castigo",
+      "2 S 12:14, 2 S 18:14-15, 2 S 24:15"
+    ],
+    [
+      "castigo",
+      "Est 7:10, Est 9:13"
+    ],
+    [
+      "castigo",
+      "Ex 12:12, Ex 12:29"
+    ],
+    [
+      "advertencia",
+      "Gn 2:17"
+    ],
+    [
+      "castigo",
+      "Jos 7:25"
+    ],
+    [
+      "castigo",
+      "Lv 20:9-16, Lv 24:16-17"
+    ],
+    [
+      "castigo",
+      "Nm 14:29-35, Nm 15:32-36, Nm 16:31-35, Nm 20:12"
+    ],
+    [
+      "castigo",
+      "Rom 5:12, Rom 6:21, Rom 6:23, Rom 7:5"
+    ]
+  ],
+  "derrota": [
+    [
+      "castigo",
+      "1 Cr 10:1-7"
+    ],
+    [
+      "castigo",
+      "1 S 4:10, 1 S 31:1-6"
+    ],
+    [
+      "castigo",
+      "2 Cr 12:2-4, 2 Cr 21:14-17"
+    ],
+    [
+      "castigo",
+      "Dt 28:25, Dt 28:49-52"
+    ],
+    [
+      "castigo",
+      "Jos 7:4-5, Jos 7:11-13"
+    ],
+    [
+      "castigo",
+      "Jue 1:19, Jue 4:16, Jue 16:21"
+    ],
+    [
+      "castigo",
+      "Lv 26:17"
+    ]
+  ],
+  "salvacion": [
+    [
+      "bendicion",
+      "1Co 1:18, 1Co 1:30-31, 1Co 6:11, 1Co 15:1-4, 1Co 15:22, 1Co 15:57"
+    ],
+    [
+      "bendicion",
+      "1Pe 1:18-19, 1Pe 2:24"
+    ],
+    [
+      "bendicion",
+      "2Th 2:13-14"
+    ],
+    [
+      "bendicion",
+      "2Ti 1:9-10, 2Ti 2:10"
+    ],
+    [
+      "bendicion",
+      "Act 2:21, Act 2:38, Act 4:12, Act 10:43, Act 13:38-39, Act 16:31, Act 28:28"
+    ],
+    [
+      "bendicion",
+      "Col 1:13-14, Col 2:13-14, Col 3:3-4"
+    ],
+    [
+      "bendicion",
+      "Eph 1:7-8, Eph 2:4-8, Eph 2:13, Eph 2:19, Eph 2:22"
+    ],
+    [
+      "bendicion",
+      "Heb 1:3, Heb 2:9-10, Heb 4:14-16, Heb 7:25, Heb 9:11-12, Heb 10:10-14, Heb 12:2"
+    ],
+    [
+      "bendicion",
+      "Is 12:2, Is 25:9, Is 49:6"
+    ],
+    [
+      "bendicion",
+      "Jer 23:5-6"
+    ],
+    [
+      "bendicion",
+      "Jl 2:32"
+    ],
+    [
+      "bendicion",
+      "Joh 1:12-13, Joh 3:16-18, Joh 5:24, Joh 6:40, Joh 10:9-10, Joh 11:25-26, Joh 14:6, Joh 17:3, Joh 20:31"
+    ],
+    [
+      "bendicion",
+      "Jon 2:9"
+    ],
+    [
+      "bendicion",
+      "Jud 1:3, Jud 1:21"
+    ],
+    [
+      "bendicion",
+      "Luc 1:69-77, Luc 2:30-32, Luc 3:6, Luc 19:9-10, Luc 24:46-47"
+    ],
+    [
+      "bendicion",
+      "Mar 1:15, Mar 10:45, Mar 16:16"
+    ],
+    [
+      "bendicion",
+      "Mat 1:21, Mat 18:11, Mat 20:28, Mat 26:28"
+    ],
+    [
+      "bendicion",
+      "Mi 5:2"
+    ],
+    [
+      "bendicion",
+      "Phi 1:6, Phi 2:12-13, Phi 3:20-21"
+    ],
+    [
+      "bendicion",
+      "Rev 7:9-10, Rev 7:14, Rev 21:2-4, Rev 22:14"
+    ],
+    [
+      "bendicion",
+      "Rom 1:16, Rom 3:22-24, Rom 5:1, Rom 5:8-11, Rom 8:1-2, Rom 10:9-10, Rom 10:13, Rom 11:26, Rom 12:1-2"
+    ],
+    [
+      "bendicion",
+      "Tit 2:11-14, Tit 3:4-7"
+    ],
+    [
+      "bendicion",
+      "Sof 3:14-15"
+    ]
+  ],
+  "gracia": [
+    [
+      "bendicion",
+      "1Co 1:4-7, 1Co 15:10"
+    ],
+    [
+      "bendicion",
+      "1Ti 1:14-16"
+    ],
+    [
+      "bendicion",
+      "Eph 2:8-9"
+    ],
+    [
+      "bendicion",
+      "Phm 1:25"
+    ],
+    [
+      "bendicion",
+      "Rom 3:24, Rom 5:15-21, Rom 6:14, Rom 11:6"
+    ],
+    [
+      "bendicion",
+      "Tit 2:11"
+    ]
+  ],
+  "espiritu_santo": [
+    [
+      "bendicion",
+      "1Co 2:10-14, 1Co 6:19, 1Co 12:4-11, 1Co 12:13"
+    ],
+    [
+      "bendicion",
+      "1Jn 2:20, 1Jn 4:13"
+    ],
+    [
+      "bendicion",
+      "Act 1:4-8, Act 2:1-4, Act 2:17-18, Act 2:38-39, Act 4:31, Act 8:14-17, Act 10:44-46, Act 13:2-4, Act 19:6"
+    ],
+    [
+      "bendicion",
+      "Eph 1:13-14, Eph 4:30, Eph 5:18"
+    ],
+    [
+      "bendicion",
+      "Gal 3:2-5, Gal 4:6, Gal 5:16-18, Gal 5:22-25"
+    ],
+    [
+      "bendicion",
+      "Joh 7:37-39, Joh 14:16-17, Joh 14:26, Joh 15:26, Joh 16:7-13"
+    ],
+    [
+      "bendicion",
+      "Rom 5:5, Rom 8:9-16, Rom 8:26-27"
+    ]
+  ],
+  "libertad": [
+    [
+      "bendicion",
+      "1Co 6:12, 1Co 8:9, 1Co 10:23"
+    ],
+    [
+      "bendicion",
+      "2Co 3:17"
+    ],
+    [
+      "bendicion",
+      "Gal 2:16, Gal 3:13-14, Gal 5:1"
+    ],
+    [
+      "bendicion",
+      "Joh 8:32, Joh 8:36"
+    ]
+  ],
+  "unidad": [
+    [
+      "bendicion",
+      "1Co 1:10, 1Co 12:12-27, 1Co 13:13"
+    ],
+    [
+      "bendicion",
+      "Eph 2:14-16, Eph 4:3-6"
+    ],
+    [
+      "bendicion",
+      "Joh 17:21-23"
+    ],
+    [
+      "bendicion",
+      "Phi 2:1-4"
+    ],
+    [
+      "bendicion",
+      "Rom 12:4-5, Rom 15:5-7"
+    ]
+  ],
+  "amor": [
+    [
+      "bendicion",
+      "1Co 13:1-13"
+    ],
+    [
+      "bendicion",
+      "1Pe 4:8"
+    ],
+    [
+      "bendicion",
+      "2Jn 1:5-6"
+    ],
+    [
+      "bendicion",
+      "Gal 5:13-14, Gal 5:22"
+    ],
+    [
+      "bendicion",
+      "Heb 13:1-3"
+    ],
+    [
+      "bendicion",
+      "Phm 1:4-7"
+    ]
+  ],
+  "edificacion": [
+    [
+      "bendicion",
+      "1Co 14:3-5, 1Co 14:26"
+    ]
+  ],
+  "resurreccion": [
+    [
+      "bendicion",
+      "1Co 15:20-23, 1Co 15:42-44, 1Co 15:51-57"
+    ]
+  ],
+  "provision": [
+    [
+      "bendicion",
+      "1Co 3:21-23, 1Co 9:13-14, 1Co 16:2"
+    ],
+    [
+      "bendicion",
+      "1Ti 6:17"
+    ],
+    [
+      "bendicion",
+      "2Co 9:8, 2Co 9:10-11"
+    ],
+    [
+      "bendicion",
+      "Eph 3:20, Eph 4:28, Eph 6:8"
+    ],
+    [
+      "bendicion",
+      "Ex 16:4, Ex 16:12, Ex 17:6"
+    ],
+    [
+      "bendicion",
+      "Esd 7:21-22, Esd 8:36"
+    ],
+    [
+      "bendicion",
+      "Gn 22:14, Gn 48:15"
+    ],
+    [
+      "bendicion",
+      "Heb 13:5"
+    ],
+    [
+      "bendicion",
+      "Is 55:1-2, Is 58:11"
+    ],
+    [
+      "bendicion",
+      "Jas 1:17, Jas 2:15-16"
+    ],
+    [
+      "bendicion",
+      "Lv 25:18-22"
+    ],
+    [
+      "bendicion",
+      "Luc 11:9-13, Luc 12:22-31"
+    ],
+    [
+      "bendicion",
+      "Mar 6:35-44, Mar 8:1-9"
+    ],
+    [
+      "bendicion",
+      "Mat 6:25-34"
+    ],
+    [
+      "bendicion",
+      "Neh 9:21"
+    ],
+    [
+      "bendicion",
+      "Phi 4:19"
+    ],
+    [
+      "bendicion",
+      "Pr 3:9-10, Pr 10:22"
+    ],
+    [
+      "bendicion",
+      "Sal 23:1, Sal 34:9-10, Sal 37:25"
+    ],
+    [
+      "bendicion",
+      "Rom 8:32, Rom 11:36, Rom 12:13, Rom 15:27"
+    ],
+    [
+      "bendicion",
+      "Rt 2:14-18"
+    ],
+    [
+      "proteccion",
+      "Sal 91:7, Sal 91:10-13, Sal 91:15-16"
+    ]
+  ],
+  "fe": [
+    [
+      "bendicion",
+      "1Co 2:5, 1Co 16:13"
+    ],
+    [
+      "bendicion",
+      "1Th 1:8, 1Th 3:7"
+    ],
+    [
+      "bendicion",
+      "2Co 4:13, 2Co 5:7"
+    ],
+    [
+      "bendicion",
+      "2Pe 1:5-7"
+    ],
+    [
+      "bendicion",
+      "Act 3:16, Act 11:21, Act 14:9, Act 16:31"
+    ],
+    [
+      "bendicion",
+      "Eph 1:15-16, Eph 6:16"
+    ],
+    [
+      "bendicion",
+      "Gal 2:20, Gal 3:11, Gal 5:6"
+    ],
+    [
+      "bendicion",
+      "Hab 2:4"
+    ],
+    [
+      "bendicion",
+      "Heb 11:1-40"
+    ],
+    [
+      "bendicion",
+      "Jas 1:2-4, Jas 2:17-26"
+    ],
+    [
+      "bendicion",
+      "Joh 1:12, Joh 3:16, Joh 11:40, Joh 20:29"
+    ],
+    [
+      "bendicion",
+      "Luc 7:50, Luc 8:48, Luc 17:5-6, Luc 18:42"
+    ],
+    [
+      "bendicion",
+      "Mar 5:34, Mar 9:23, Mar 11:22-24"
+    ],
+    [
+      "bendicion",
+      "Mat 17:20, Mat 21:21-22"
+    ],
+    [
+      "bendicion",
+      "Rom 1:17, Rom 3:28, Rom 4:16-21, Rom 10:17"
+    ]
+  ],
+  "oracion_respondida": [
+    [
+      "bendicion",
+      "1Co 14:14-15"
+    ],
+    [
+      "bendicion",
+      "1Jn 3:22, 1Jn 5:14-15"
+    ],
+    [
+      "bendicion",
+      "1 R 8:28-30, 1 R 9:3"
+    ],
+    [
+      "bendicion",
+      "1 S 1:20, 1 S 1:27"
+    ],
+    [
+      "bendicion",
+      "1Th 3:10, 1Th 5:17"
+    ],
+    [
+      "bendicion",
+      "1Ti 2:1-4"
+    ],
+    [
+      "bendicion",
+      "2 Cr 7:14, 2 Cr 20:15-17"
+    ],
+    [
+      "bendicion",
+      "2 R 20:5, 2 R 1:10"
+    ],
+    [
+      "bendicion",
+      "Act 1:14, Act 4:24-31, Act 12:5-17, Act 16:25-26, Act 28:8-9"
+    ],
+    [
+      "bendicion",
+      "Jas 1:5-7, Jas 5:16-18"
+    ],
+    [
+      "bendicion",
+      "Job 42:9-10"
+    ],
+    [
+      "bendicion",
+      "Joh 14:13-14, Joh 15:7, Joh 16:23-24"
+    ],
+    [
+      "bendicion",
+      "Luc 11:9-13, Luc 18:1-8"
+    ],
+    [
+      "bendicion",
+      "Mar 11:24"
+    ],
+    [
+      "bendicion",
+      "Mat 7:7-11, Mat 18:19, Mat 21:22"
+    ],
+    [
+      "bendicion",
+      "Neh 1:11, Neh 2:4"
+    ],
+    [
+      "bendicion",
+      "Sal 18:6, Sal 34:4, Sal 118:5"
+    ]
+  ],
+  "templo_del_espiritu": [
+    [
+      "bendicion",
+      "1Co 3:16, 1Co 6:19"
+    ]
+  ],
+  "liderazgo": [
+    [
+      "bendicion",
+      "1Co 3:5-9, 1Co 11:1, 1Co 16:15-16"
+    ],
+    [
+      "bendicion",
+      "1Pe 5:2-4"
+    ],
+    [
+      "bendicion",
+      "1 S 3:19, 1 S 7:15-17"
+    ],
+    [
+      "bendicion",
+      "1Ti 3:1-13, 1Ti 4:12-16"
+    ],
+    [
+      "bendicion",
+      "2Co 1:24, 2Co 6:1-10, 2Co 11:23-28"
+    ],
+    [
+      "bendicion",
+      "3Jn 1:9-12"
+    ],
+    [
+      "bendicion",
+      "Heb 13:7, Heb 13:17"
+    ],
+    [
+      "bendicion",
+      "Mar 10:42-45, Mar 16:15"
+    ],
+    [
+      "bendicion",
+      "Mat 20:26-28, Mat 28:18-20"
+    ],
+    [
+      "bendicion",
+      "Phm 1:8-9"
+    ],
+    [
+      "bendicion",
+      "Phi 2:5-11, Phi 3:17"
+    ],
+    [
+      "bendicion",
+      "Tit 1:5-9"
+    ]
+  ],
+  "division": [
+    [
+      "advertencia",
+      "1Co 1:10-13, 1Co 3:3-4"
+    ],
+    [
+      "advertencia",
+      "Gal 5:15"
+    ],
+    [
+      "advertencia",
+      "Phi 2:14, Phi 4:2"
+    ]
+  ],
+  "inmoralidad": [
+    [
+      "advertencia",
+      "1Co 5:1-13, 1Co 6:9-20, 1Co 10:8"
+    ],
+    [
+      "advertencia",
+      "1Pe 4:3"
+    ],
+    [
+      "advertencia",
+      "1Th 4:3-5"
+    ],
+    [
+      "advertencia",
+      "2Pe 2:13-14"
+    ],
+    [
+      "advertencia",
+      "Jud 1:7-8"
+    ],
+    [
+      "advertencia",
+      "Rev 2:20-23, Rev 9:21, Rev 21:8"
+    ]
+  ],
+  "idolatria": [
+    [
+      "advertencia",
+      "1Co 8:4-13, 1Co 10:14-22"
+    ],
+    [
+      "advertencia",
+      "1 R 9:6-9, 1 R 11:1-4"
+    ],
+    [
+      "advertencia",
+      "1 S 7:3, 1 S 12:10"
+    ],
+    [
+      "advertencia",
+      "2 Cr 7:19-22, 2 Cr 24:18"
+    ],
+    [
+      "advertencia",
+      "2 R 17:7-12, 2 R 21:2-9"
+    ],
+    [
+      "advertencia",
+      "Act 14:15, Act 17:16-29"
+    ],
+    [
+      "advertencia",
+      "Dt 4:23-28, Dt 8:19-20, Dt 11:16-17"
+    ],
+    [
+      "advertencia",
+      "Ex 20:3-5, Ex 34:14"
+    ],
+    [
+      "castigo",
+      "Ex 32:27-28, Ex 32:35"
+    ],
+    [
+      "advertencia",
+      "Ez 8:5-6, Ez 14:6"
+    ],
+    [
+      "advertencia",
+      "Os 4:1-2, Os 8:4"
+    ],
+    [
+      "advertencia",
+      "Is 1:28-31, Is 44:9-20"
+    ],
+    [
+      "advertencia",
+      "Jer 2:11-13, Jer 7:9-11"
+    ],
+    [
+      "advertencia",
+      "Jos 23:6-7, Jos 23:16"
+    ],
+    [
+      "advertencia",
+      "Jue 2:1-3, Jue 2:11-13, Jue 6:10"
+    ],
+    [
+      "advertencia",
+      "Lv 19:4, Lv 26:1"
+    ],
+    [
+      "advertencia",
+      "Nm 25:1-3"
+    ],
+    [
+      "advertencia",
+      "Rev 9:20, Rev 13:4, Rev 13:14-15"
+    ],
+    [
+      "advertencia",
+      "Sof 1:4-6"
+    ]
+  ],
+  "orgullo": [
+    [
+      "advertencia",
+      "1Co 4:6-7, 1Co 8:1"
+    ],
+    [
+      "advertencia",
+      "1Ti 3:6"
+    ],
+    [
+      "advertencia",
+      "2Co 10:12, 2Co 12:7"
+    ],
+    [
+      "advertencia",
+      "3Jn 1:9-10"
+    ],
+    [
+      "advertencia",
+      "Dn 4:30-32"
+    ],
+    [
+      "advertencia",
+      "Gal 6:3-4"
+    ],
+    [
+      "advertencia",
+      "Jas 4:6"
+    ],
+    [
+      "advertencia",
+      "Luc 14:7-11, Luc 18:9-14"
+    ],
+    [
+      "advertencia",
+      "Mar 9:33-37, Mar 10:35-45"
+    ],
+    [
+      "advertencia",
+      "Phi 2:3, Phi 3:18-19"
+    ],
+    [
+      "advertencia",
+      "Pr 16:18, Pr 18:12"
+    ],
+    [
+      "advertencia",
+      "Sal 10:4, Sal 73:6"
+    ],
+    [
+      "advertencia",
+      "Rom 11:18-21, Rom 12:3"
+    ]
+  ],
+  "abuso_de_libertad": [
+    [
+      "advertencia",
+      "1Co 6:12, 1Co 10:23-24"
+    ]
+  ],
+  "irreverencia": [
+    [
+      "advertencia",
+      "1Co 11:20-30"
+    ]
+  ],
+  "desorden": [
+    [
+      "advertencia",
+      "1Co 14:33-40"
+    ]
+  ],
+  "disciplina": [
+    [
+      "castigo",
+      "1Co 5:5, 1Co 11:30-32"
+    ],
+    [
+      "castigo",
+      "2Co 2:6, 2Co 13:10"
+    ],
+    [
+      "bendicion",
+      "Heb 12:5-11"
+    ]
+  ],
+  "consecuencias_del_pecado": [
+    [
+      "castigo",
+      "1Co 3:17, 1Co 6:18"
+    ],
+    [
+      "castigo",
+      "1Ti 5:24"
+    ],
+    [
+      "castigo",
+      "2Co 11:15"
+    ],
+    [
+      "advertencia",
+      "2 S 12:11-14, 2 S 16:21-22"
+    ],
+    [
+      "castigo",
+      "Act 8:20-23, Act 13:11"
+    ],
+    [
+      "castigo",
+      "Gal 5:21, Gal 6:7-8"
+    ],
+    [
+      "castigo",
+      "Gn 3:16-19"
+    ],
+    [
+      "castigo",
+      "Luc 13:1-5, Luc 19:41-44"
+    ],
+    [
+      "castigo",
+      "Mar 9:42-48"
+    ],
+    [
+      "castigo",
+      "Mat 18:34-35, Mat 23:33"
+    ],
+    [
+      "advertencia",
+      "Rom 1:26-32, Rom 6:23"
+    ]
+  ],
+  "vida_eterna": [
+    [
+      "bendicion",
+      "1Jn 1:2, 1Jn 2:25, 1Jn 5:11-13"
+    ],
+    [
+      "bendicion",
+      "1Ti 6:12, 1Ti 6:19"
+    ],
+    [
+      "bendicion",
+      "Joh 3:16, Joh 3:36, Joh 4:14, Joh 6:47-51, Joh 10:28, Joh 17:2-3"
+    ],
+    [
+      "bendicion",
+      "Rev 2:7, Rev 22:1-5"
+    ],
+    [
+      "bendicion",
+      "Rom 2:7, Rom 5:21, Rom 6:22-23, Rom 8:11, Rom 8:38-39"
+    ]
+  ],
+  "amor_divino": [
+    [
+      "bendicion",
+      "1Jn 3:1, 1Jn 4:7-10, 1Jn 4:16"
+    ],
+    [
+      "bendicion",
+      "Eph 3:17-19, Eph 5:2"
+    ],
+    [
+      "bendicion",
+      "Os 2:19-20, Os 11:4"
+    ],
+    [
+      "bendicion",
+      "Joh 3:16, Joh 13:34-35, Joh 15:9-13, Joh 16:27"
+    ],
+    [
+      "bendicion",
+      "Mat 6:4, Mat 6:6, Mat 6:18"
+    ],
+    [
+      "bendicion",
+      "Rom 5:5, Rom 8:35-39"
+    ]
+  ],
+  "perdon": [
+    [
+      "bendicion",
+      "1Jn 1:7-9, 1Jn 2:1-2"
+    ],
+    [
+      "bendicion",
+      "Col 2:13"
+    ],
+    [
+      "bendicion",
+      "Os 14:2-4"
+    ],
+    [
+      "bendicion",
+      "Joh 20:23"
+    ],
+    [
+      "bendicion",
+      "Lv 4:20, Lv 4:26, Lv 4:31, Lv 4:35, Lv 5:10, Lv 5:13, Lv 5:16, Lv 6:7"
+    ],
+    [
+      "bendicion",
+      "Luc 5:20-24, Luc 7:47-50, Luc 23:34"
+    ],
+    [
+      "bendicion",
+      "Mar 2:5, Mar 3:28, Mar 11:25"
+    ],
+    [
+      "bendicion",
+      "Mat 6:14-15, Mat 18:21-35, Mat 26:28"
+    ],
+    [
+      "bendicion",
+      "Mi 7:18-19"
+    ],
+    [
+      "bendicion",
+      "Phm 1:15-18"
+    ],
+    [
+      "bendicion",
+      "Sal 32:1-2, Sal 51:10-12"
+    ]
+  ],
+  "seguridad": [
+    [
+      "bendicion",
+      "1Jn 5:18-20"
+    ]
+  ],
+  "pecado": [
+    [
+      "advertencia",
+      "1Jn 1:6, 1Jn 3:4-10"
+    ],
+    [
+      "advertencia",
+      "2 S 11:4, 2 S 12:10-12"
+    ],
+    [
+      "advertencia",
+      "Col 3:5-9"
+    ],
+    [
+      "advertencia",
+      "Eph 4:17-19, Eph 5:3-7"
+    ],
+    [
+      "advertencia",
+      "Ez 18:30-32, Ez 33:11"
+    ],
+    [
+      "advertencia",
+      "Joh 8:34, Joh 8:44, Joh 9:41, Joh 15:22"
+    ],
+    [
+      "advertencia",
+      "Rom 1:24-32, Rom 3:10-18, Rom 6:12-16"
+    ]
+  ],
+  "anticristo": [
+    [
+      "advertencia",
+      "1Jn 2:18-23, 1Jn 4:3"
+    ]
+  ],
+  "odio": [
+    [
+      "advertencia",
+      "1Jn 2:9-11, 1Jn 3:15"
+    ]
+  ],
+  "division_del_reino": [
+    [
+      "castigo",
+      "1 R 11:11-13, 1 R 12:16-19"
+    ]
+  ],
+  "sequedad": [
+    [
+      "castigo",
+      "1 R 17:1"
+    ]
+  ],
+  "juicio_divino": [
+    [
+      "castigo",
+      "1 R 14:10-11, 1 R 21:21-24"
+    ],
+    [
+      "castigo",
+      "1 S 3:13, 1 S 15:23"
+    ],
+    [
+      "castigo",
+      "2 R 21:12-14, 2 R 24:2-4"
+    ],
+    [
+      "castigo",
+      "2Pe 2:4-9, 2Pe 3:7"
+    ],
+    [
+      "castigo",
+      "2Th 1:6-9"
+    ],
+    [
+      "castigo",
+      "Act 5:5, Act 12:23, Act 13:10-11"
+    ],
+    [
+      "castigo",
+      "Ec 11:9, Ec 12:14"
+    ],
+    [
+      "advertencia",
+      "Ex 22:22-24, Ex 32:33"
+    ],
+    [
+      "castigo",
+      "Gn 6:13"
+    ],
+    [
+      "castigo",
+      "Heb 10:27-31, Heb 12:29"
+    ],
+    [
+      "castigo",
+      "Jas 5:1-5, Jas 5:9"
+    ],
+    [
+      "castigo",
+      "Jer 5:14, Jer 21:10"
+    ],
+    [
+      "castigo",
+      "Jud 1:6, Jud 1:14-15"
+    ],
+    [
+      "castigo",
+      "Lv 10:1-2, Lv 20:1-5"
+    ],
+    [
+      "castigo",
+      "Luc 10:10-16, Luc 12:46-48, Luc 13:27-28, Luc 16:19-31"
+    ],
+    [
+      "castigo",
+      "Mar 8:38, Mar 9:43-48, Mar 12:40"
+    ],
+    [
+      "castigo",
+      "Mat 7:21-23, Mat 13:40-42, Mat 22:11-13, Mat 25:31-46"
+    ],
+    [
+      "castigo",
+      "Nm 16:31-33, Nm 21:6"
+    ],
+    [
+      "castigo",
+      "Sal 9:17, Sal 37:9-10"
+    ],
+    [
+      "advertencia",
+      "Rom 1:18, Rom 2:5-8, Rom 2:16"
+    ],
+    [
+      "castigo",
+      "Rom 1:24-28, Rom 2:5, Rom 2:12"
+    ]
+  ],
+  "esperanza": [
+    [
+      "bendicion",
+      "1Pe 1:3-5, 1Pe 1:13"
+    ],
+    [
+      "bendicion",
+      "1Th 1:3, 1Th 4:13-18, 1Th 5:8-11"
+    ],
+    [
+      "bendicion",
+      "2Co 4:18"
+    ],
+    [
+      "bendicion",
+      "Heb 6:18-19"
+    ],
+    [
+      "bendicion",
+      "Lam 3:24-26, Lam 3:31-32"
+    ],
+    [
+      "bendicion",
+      "Luc 21:28"
+    ],
+    [
+      "bendicion",
+      "Phi 1:21, Phi 3:10-11"
+    ],
+    [
+      "bendicion",
+      "Rom 5:2-5, Rom 8:18-25, Rom 15:4"
+    ]
+  ],
+  "fortaleza": [
+    [
+      "bendicion",
+      "1Pe 5:10"
+    ],
+    [
+      "bendicion",
+      "2Co 4:7-10, 2Co 12:9-10"
+    ],
+    [
+      "bendicion",
+      "2Pe 1:10"
+    ],
+    [
+      "bendicion",
+      "2Th 2:16-17"
+    ],
+    [
+      "bendicion",
+      "2Ti 1:7, 2Ti 2:1"
+    ],
+    [
+      "bendicion",
+      "Col 1:11"
+    ],
+    [
+      "bendicion",
+      "Eph 3:16, Eph 6:10"
+    ],
+    [
+      "bendicion",
+      "Heb 12:1-3, Heb 13:5-6"
+    ],
+    [
+      "bendicion",
+      "Jue 6:34, Jue 11:29, Jue 14:6, Jue 15:14"
+    ],
+    [
+      "bendicion",
+      "Phi 4:13"
+    ],
+    [
+      "bendicion",
+      "Rev 1:17-18, Rev 7:17"
+    ]
+  ],
+  "sufrimiento": [
+    [
+      "bendicion",
+      "1Pe 4:12-13, 1Pe 2:21-23"
+    ],
+    [
+      "advertencia",
+      "Job 2:13, Job 7:3, Job 30:16-17"
+    ]
+  ],
+  "humildad": [
+    [
+      "bendicion",
+      "1Pe 5:5-6"
+    ],
+    [
+      "bendicion",
+      "Jas 4:6-10"
+    ]
+  ],
+  "herencia": [
+    [
+      "bendicion",
+      "1Pe 1:4"
+    ],
+    [
+      "bendicion",
+      "Col 1:12"
+    ],
+    [
+      "bendicion",
+      "Dt 1:38, Dt 3:18, Dt 12:9-10"
+    ],
+    [
+      "bendicion",
+      "Gal 3:29, Gal 4:7"
+    ],
+    [
+      "bendicion",
+      "Gn 17:8, Gn 28:4, Gn 35:12"
+    ],
+    [
+      "bendicion",
+      "Jos 13:6-7, Jos 14:9, Jos 21:43"
+    ],
+    [
+      "bendicion",
+      "Mat 5:5, Mat 25:34"
+    ],
+    [
+      "bendicion",
+      "Nm 18:20, Nm 26:52-56, Nm 34:13"
+    ],
+    [
+      "bendicion",
+      "Rt 4:5, Rt 4:9-10"
+    ]
+  ],
+  "juicio": [
+    [
+      "advertencia",
+      "1Pe 4:17-18"
+    ],
+    [
+      "castigo",
+      "Am 3:2, Am 4:6-12, Am 5:27"
+    ],
+    [
+      "castigo",
+      "Ez 7:8-9, Ez 24:14"
+    ],
+    [
+      "castigo",
+      "Hab 2:6-8"
+    ],
+    [
+      "castigo",
+      "Os 5:9, Os 9:7"
+    ],
+    [
+      "advertencia",
+      "Jl 1:15, Jl 2:1-2"
+    ],
+    [
+      "advertencia",
+      "Joh 3:18-19, Joh 5:28-29, Joh 12:47-48"
+    ],
+    [
+      "castigo",
+      "Mal 4:1"
+    ],
+    [
+      "castigo",
+      "Mi 6:13-16"
+    ],
+    [
+      "castigo",
+      "Nah 1:2-3"
+    ],
+    [
+      "advertencia",
+      "Rev 6:15-17, Rev 14:7, Rev 20:11-15"
+    ]
+  ],
+  "direccion": [
+    [
+      "bendicion",
+      "1 S 23:2, 1 S 30:8"
+    ],
+    [
+      "bendicion",
+      "2 R 3:16-18, 2 R 22:18-20"
+    ],
+    [
+      "bendicion",
+      "2 S 2:1, 2 S 5:23-25"
+    ],
+    [
+      "bendicion",
+      "Act 1:24, Act 8:29, Act 10:19-20, Act 13:2, Act 16:6-10"
+    ],
+    [
+      "bendicion",
+      "Ex 13:21-22, Ex 23:20"
+    ],
+    [
+      "bendicion",
+      "Jue 6:14, Jue 6:16, Jue 13:5"
+    ],
+    [
+      "bendicion",
+      "Nm 9:17-23"
+    ],
+    [
+      "bendicion",
+      "Rom 8:14, Rom 12:2, Rom 15:32"
+    ]
+  ],
+  "santificacion": [
+    [
+      "bendicion",
+      "1Th 4:3-7, 1Th 5:23-24"
+    ]
+  ],
+  "gozo": [
+    [
+      "bendicion",
+      "1Th 1:6, 1Th 5:16"
+    ],
+    [
+      "bendicion",
+      "Act 2:46, Act 13:52, Act 16:25, Act 20:24"
+    ],
+    [
+      "bendicion",
+      "Ec 3:12-13, Ec 9:7"
+    ],
+    [
+      "bendicion",
+      "Hab 3:17-18"
+    ],
+    [
+      "bendicion",
+      "Joh 15:11, Joh 16:20-22, Joh 17:13"
+    ],
+    [
+      "bendicion",
+      "Luc 1:14, Luc 2:10, Luc 10:20, Luc 15:7, Luc 15:10"
+    ],
+    [
+      "bendicion",
+      "Phi 1:4, Phi 2:17-18, Phi 3:1, Phi 4:4"
+    ],
+    [
+      "bendicion",
+      "Sal 16:11, Sal 30:5, Sal 126:5"
+    ],
+    [
+      "bendicion",
+      "Rev 19:6-7, Rev 21:4"
+    ]
+  ],
+  "pereza": [
+    [
+      "advertencia",
+      "1Th 4:11-12"
+    ],
+    [
+      "advertencia",
+      "2Th 3:6-12"
+    ],
+    [
+      "advertencia",
+      "Pr 6:6-11, Pr 24:30-34"
+    ]
+  ],
+  "dia_del_juicio": [
+    [
+      "advertencia",
+      "1Th 5:2-3"
+    ],
+    [
+      "castigo",
+      "Luc 10:12-15, Luc 17:26-30, Luc 21:34-36"
+    ],
+    [
+      "castigo",
+      "Mar 13:24-27, Mar 13:32-37"
+    ],
+    [
+      "castigo",
+      "Mat 10:15, Mat 11:22-24, Mat 12:36, Mat 24:50-51, Mat 25:46"
+    ],
+    [
+      "castigo",
+      "Sof 1:14-18"
+    ]
+  ],
+  "falsas_doctrinas": [
+    [
+      "advertencia",
+      "1Ti 1:3-7, 1Ti 4:1-3"
+    ],
+    [
+      "advertencia",
+      "2Ti 3:1-5, 2Ti 4:3-4"
+    ],
+    [
+      "advertencia",
+      "Col 2:4-8, Col 2:16-23"
+    ],
+    [
+      "advertencia",
+      "Tit 1:10-16"
+    ]
+  ],
+  "avaricia": [
+    [
+      "advertencia",
+      "1Ti 6:9-10"
+    ]
+  ],
+  "templo": [
+    [
+      "bendicion",
+      "2 Cr 7:1-3, 2 Cr 7:14-16"
+    ],
+    [
+      "bendicion",
+      "Esd 3:10-11, Esd 6:16-18"
+    ]
+  ],
+  "restauracion": [
+    [
+      "bendicion",
+      "2 Cr 30:9, 2 Cr 36:23"
+    ],
+    [
+      "bendicion",
+      "2 R 22:18-20, 2 R 25:27-30"
+    ],
+    [
+      "bendicion",
+      "2 S 12:13, 2 S 12:24, 2 S 19:7"
+    ],
+    [
+      "bendicion",
+      "Am 9:11-15"
+    ],
+    [
+      "bendicion",
+      "Dt 4:29-31, Dt 30:1-5"
+    ],
+    [
+      "bendicion",
+      "Ez 11:19-20, Ez 36:26-28, Ez 37:5-6"
+    ],
+    [
+      "bendicion",
+      "Esd 1:1-3, Esd 6:14-15"
+    ],
+    [
+      "bendicion",
+      "Gal 6:1"
+    ],
+    [
+      "bendicion",
+      "Gn 50:20"
+    ],
+    [
+      "bendicion",
+      "Os 6:1-2, Os 14:4-7"
+    ],
+    [
+      "bendicion",
+      "Is 35:1-2, Is 40:31, Is 61:1-3"
+    ],
+    [
+      "bendicion",
+      "Jer 29:11, Jer 31:3, Jer 31:33-34"
+    ],
+    [
+      "bendicion",
+      "Job 42:10"
+    ],
+    [
+      "bendicion",
+      "Jl 2:25, Jl 2:26"
+    ],
+    [
+      "bendicion",
+      "Jos 4:23-24, Jos 5:9, Jos 8:18"
+    ],
+    [
+      "bendicion",
+      "Jue 2:18, Jue 10:16"
+    ],
+    [
+      "bendicion",
+      "Lv 26:40-45"
+    ],
+    [
+      "bendicion",
+      "Mal 3:16-17"
+    ],
+    [
+      "bendicion",
+      "Neh 2:8, Neh 2:18, Neh 6:15-16"
+    ],
+    [
+      "bendicion",
+      "Nm 21:8-9"
+    ],
+    [
+      "bendicion",
+      "Abd 1:17"
+    ],
+    [
+      "bendicion",
+      "Rt 4:14-15"
+    ],
+    [
+      "bendicion",
+      "Zac 1:3, Zac 8:3"
+    ],
+    [
+      "bendicion",
+      "Sof 3:17"
+    ]
+  ],
+  "exilio": [
+    [
+      "castigo",
+      "2 Cr 36:15-17, 2 Cr 36:20-21"
+    ],
+    [
+      "castigo",
+      "2 R 17:18, 2 R 25:21"
+    ],
+    [
+      "castigo",
+      "Dt 28:36, Dt 28:63-64"
+    ],
+    [
+      "castigo",
+      "Ez 12:11, Ez 36:19"
+    ],
+    [
+      "castigo",
+      "Os 9:3, Os 11:5"
+    ],
+    [
+      "castigo",
+      "Is 39:6-7, Is 42:22-25"
+    ],
+    [
+      "castigo",
+      "Jer 25:11, Jer 29:10"
+    ],
+    [
+      "castigo",
+      "Lam 1:3, Lam 5:21"
+    ]
+  ],
+  "destruccion": [
+    [
+      "castigo",
+      "2 Cr 7:20, 2 Cr 34:25"
+    ],
+    [
+      "castigo",
+      "2 R 17:20, 2 R 25:9-10"
+    ],
+    [
+      "castigo",
+      "Est 3:13, Est 9:5"
+    ],
+    [
+      "castigo",
+      "Ez 6:6, Ez 9:6"
+    ],
+    [
+      "castigo",
+      "Jer 4:20, Jer 52:12-13"
+    ],
+    [
+      "castigo",
+      "Lam 1:1-3, Lam 2:1-9, Lam 4:11"
+    ],
+    [
+      "castigo",
+      "Sal 34:16, Sal 73:18-19"
+    ],
+    [
+      "castigo",
+      "Rev 18:2-8, Rev 19:20-21"
+    ]
+  ],
+  "consuelo": [
+    [
+      "bendicion",
+      "2Co 1:3-4, 2Co 1:5-7"
+    ],
+    [
+      "bendicion",
+      "Luc 2:25, Luc 6:21, Luc 16:25"
+    ],
+    [
+      "bendicion",
+      "Mat 5:4"
+    ]
+  ],
+  "nueva_creacion": [
+    [
+      "bendicion",
+      "2Co 5:17"
+    ],
+    [
+      "bendicion",
+      "Rev 21:1-2, Rev 21:5"
+    ]
+  ],
+  "reconciliacion": [
+    [
+      "bendicion",
+      "2Co 5:18-21"
+    ],
+    [
+      "bendicion",
+      "Phm 1:10-12"
+    ]
+  ],
+  "gloria": [
+    [
+      "bendicion",
+      "2Co 3:18, 2Co 4:17"
+    ],
+    [
+      "bendicion",
+      "2Th 1:10-12"
+    ],
+    [
+      "bendicion",
+      "Joh 12:26, Joh 17:22-24"
+    ],
+    [
+      "bendicion",
+      "Jud 1:24-25"
+    ]
+  ],
+  "paz": [
+    [
+      "bendicion",
+      "2Co 13:11"
+    ],
+    [
+      "bendicion",
+      "2Th 3:16"
+    ],
+    [
+      "bendicion",
+      "Col 3:15"
+    ],
+    [
+      "bendicion",
+      "Eph 2:14-17, Eph 6:23"
+    ],
+    [
+      "bendicion",
+      "Gal 5:22, Gal 6:16"
+    ],
+    [
+      "bendicion",
+      "Heb 13:20-21"
+    ],
+    [
+      "bendicion",
+      "Is 26:3, Is 54:10, Is 66:12"
+    ],
+    [
+      "bendicion",
+      "Joh 14:27, Joh 16:33"
+    ],
+    [
+      "bendicion",
+      "Lv 26:6"
+    ],
+    [
+      "bendicion",
+      "Phi 4:6-7"
+    ],
+    [
+      "bendicion",
+      "Rom 5:1, Rom 8:6, Rom 14:17, Rom 15:13"
+    ]
+  ],
+  "falsos_apostoles": [
+    [
+      "advertencia",
+      "2Co 11:13-15"
+    ]
+  ],
+  "incredulidad": [
+    [
+      "advertencia",
+      "2Co 4:4, 2Co 6:14-16"
+    ],
+    [
+      "advertencia",
+      "Act 7:51-53, Act 13:45-46, Act 28:25-27"
+    ],
+    [
+      "advertencia",
+      "Heb 3:7-19, Heb 4:1-2"
+    ],
+    [
+      "advertencia",
+      "Joh 3:19-20, Joh 5:38-40, Joh 8:24, Joh 12:37-40"
+    ],
+    [
+      "advertencia",
+      "Luc 8:25, Luc 12:28, Luc 24:25"
+    ],
+    [
+      "advertencia",
+      "Mar 6:6, Mar 9:19, Mar 16:14"
+    ],
+    [
+      "advertencia",
+      "Mat 13:58, Mat 17:17, Mat 21:21"
+    ],
+    [
+      "advertencia",
+      "Nm 14:11, Nm 14:22-23"
+    ],
+    [
+      "advertencia",
+      "Rom 1:21-23, Rom 10:21"
+    ]
+  ],
+  "verdad": [
+    [
+      "bendicion",
+      "2Jn 1:1-4"
+    ],
+    [
+      "bendicion",
+      "3Jn 1:3-4"
+    ]
+  ],
+  "falsos_maestros": [
+    [
+      "advertencia",
+      "2Jn 1:7-11"
+    ],
+    [
+      "advertencia",
+      "2Pe 2:1-3, 2Pe 2:10-22"
+    ]
+  ],
+  "milagros": [
+    [
+      "bendicion",
+      "2 R 2:9-14, 2 R 4:1-7, 2 R 4:32-37, 2 R 5:14"
+    ]
+  ],
+  "sanidad": [
+    [
+      "bendicion",
+      "2 R 5:10-14, 2 R 20:5"
+    ],
+    [
+      "bendicion",
+      "Act 3:6-8, Act 5:15-16, Act 9:34, Act 14:9-10, Act 28:8-9"
+    ],
+    [
+      "bendicion",
+      "Ex 15:26"
+    ],
+    [
+      "bendicion",
+      "Jas 5:14-16"
+    ],
+    [
+      "bendicion",
+      "Luc 5:17, Luc 8:48, Luc 17:14-19, Luc 18:42-43"
+    ],
+    [
+      "bendicion",
+      "Mar 1:34, Mar 5:34, Mar 6:56, Mar 10:52, Mar 16:18"
+    ],
+    [
+      "bendicion",
+      "Sal 103:2-3, Sal 147:3"
+    ]
+  ],
+  "hambre": [
+    [
+      "castigo",
+      "2 R 6:25, 2 R 7:4"
+    ],
+    [
+      "castigo",
+      "Dt 28:48, Dt 28:53-57"
+    ],
+    [
+      "castigo",
+      "Lam 4:4-10"
+    ],
+    [
+      "castigo",
+      "Lv 26:18-20, Lv 26:26"
+    ]
+  ],
+  "conocimiento_de_dios": [
+    [
+      "bendicion",
+      "2Pe 1:2-4, 2Pe 3:18"
+    ]
+  ],
+  "promesas": [
+    [
+      "bendicion",
+      "2Pe 1:4"
+    ]
+  ],
+  "escatologia": [
+    [
+      "bendicion",
+      "2Pe 3:10-13"
+    ]
+  ],
+  "engaño": [
+    [
+      "advertencia",
+      "2Pe 3:3-4"
+    ],
+    [
+      "advertencia",
+      "2Th 2:1-3"
+    ],
+    [
+      "advertencia",
+      "Rev 12:9, Rev 13:11-14, Rev 19:20"
+    ]
+  ],
+  "descendencia": [
+    [
+      "bendicion",
+      "2 S 7:12, 2 S 7:16"
+    ],
+    [
+      "bendicion",
+      "Gn 12:2, Gn 13:16, Gn 15:5, Gn 17:2, Gn 17:6, Gn 22:17, Gn 26:4, Gn 28:14"
+    ],
+    [
+      "bendicion",
+      "Rt 4:13, Rt 4:17"
+    ]
+  ],
+  "plaga": [
+    [
+      "castigo",
+      "2 S 24:15-17, 2 S 24:25"
+    ],
+    [
+      "castigo",
+      "Nm 11:33, Nm 14:37, Nm 16:46-49, Nm 25:8-9"
+    ]
+  ],
+  "conflicto": [
+    [
+      "castigo",
+      "2 S 12:10, 2 S 13:28-29"
+    ]
+  ],
+  "perseverancia": [
+    [
+      "bendicion",
+      "2Th 1:3-4, 2Th 3:3"
+    ],
+    [
+      "bendicion",
+      "Gal 6:9"
+    ],
+    [
+      "bendicion",
+      "Heb 10:23, Heb 10:36, Heb 12:1"
+    ],
+    [
+      "bendicion",
+      "Jas 1:12, Jas 5:11"
+    ],
+    [
+      "bendicion",
+      "Jud 1:1, Jud 1:24-25"
+    ],
+    [
+      "bendicion",
+      "Rev 2:26, Rev 3:10"
+    ],
+    [
+      "bendicion",
+      "Rom 5:3-4, Rom 8:25, Rom 12:12"
+    ]
+  ],
+  "rechazo_de_la_verdad": [
+    [
+      "advertencia",
+      "2Th 2:10-12"
+    ]
+  ],
+  "inspiracion_escritura": [
+    [
+      "bendicion",
+      "2Ti 3:16-17"
+    ]
+  ],
+  "corona": [
+    [
+      "bendicion",
+      "2Ti 4:7-8"
+    ]
+  ],
+  "persecucion": [
+    [
+      "advertencia",
+      "2Ti 3:12"
+    ],
+    [
+      "advertencia",
+      "Act 4:1-3, Act 7:54-60, Act 8:1, Act 12:1-4, Act 14:22"
+    ]
+  ],
+  "hospitalidad": [
+    [
+      "bendicion",
+      "3Jn 1:5-8"
+    ]
+  ],
+  "rechazo_de_autoridad": [
+    [
+      "advertencia",
+      "3Jn 1:10"
+    ]
+  ],
+  "liberacion": [
+    [
+      "bendicion",
+      "Act 5:19, Act 12:7-11, Act 16:26, Act 27:23-24"
+    ],
+    [
+      "bendicion",
+      "Dn 3:27, Dn 6:23"
+    ],
+    [
+      "bendicion",
+      "Est 8:11, Est 9:22"
+    ],
+    [
+      "bendicion",
+      "Ex 3:7-10, Ex 6:6-8"
+    ],
+    [
+      "bendicion",
+      "Jue 2:16, Jue 3:9, Jue 6:14, Jue 7:7, Jue 13:5"
+    ],
+    [
+      "bendicion",
+      "Luc 4:18, Luc 8:2, Luc 13:16"
+    ],
+    [
+      "bendicion",
+      "Mar 1:23-27, Mar 5:1-20, Mar 9:25-29"
+    ]
+  ],
+  "iglesia": [
+    [
+      "bendicion",
+      "Act 2:41-47, Act 4:32-35, Act 5:42, Act 11:26, Act 20:28"
+    ]
+  ],
+  "misiones": [
+    [
+      "bendicion",
+      "Act 1:8, Act 13:47, Act 14:27, Act 15:36-41, Act 28:31"
+    ],
+    [
+      "bendicion",
+      "Joh 20:21"
+    ]
+  ],
+  "hipocresia": [
+    [
+      "advertencia",
+      "Act 5:1-11, Act 8:18-23"
+    ],
+    [
+      "advertencia",
+      "Luc 11:39-52, Luc 12:1, Luc 20:46-47"
+    ],
+    [
+      "advertencia",
+      "Mar 7:6-13, Mar 12:38-40"
+    ],
+    [
+      "advertencia",
+      "Mat 6:1-18, Mat 15:7-9, Mat 23:1-36"
+    ]
+  ],
+  "rechazo": [
+    [
+      "advertencia",
+      "Act 13:46, Act 18:6, Act 28:24"
+    ],
+    [
+      "advertencia",
+      "Joh 1:10-11, Joh 12:48"
+    ]
+  ],
+  "justicia": [
+    [
+      "bendicion",
+      "Am 5:24"
+    ],
+    [
+      "bendicion",
+      "Mat 5:6, Mat 6:33"
+    ],
+    [
+      "bendicion",
+      "Pr 11:5-6, Pr 21:3"
+    ],
+    [
+      "bendicion",
+      "Sal 37:28, Sal 89:14"
+    ]
+  ],
+  "injusticia": [
+    [
+      "advertencia",
+      "Am 2:6-7, Am 5:11-12"
+    ],
+    [
+      "advertencia",
+      "Ec 4:1, Ec 5:8"
+    ],
+    [
+      "advertencia",
+      "Hab 1:2-4"
+    ],
+    [
+      "advertencia",
+      "Is 5:20-23, Is 10:1-2"
+    ],
+    [
+      "advertencia",
+      "Mi 2:1-2, Mi 3:9-11"
+    ],
+    [
+      "advertencia",
+      "Zac 7:9-10"
+    ]
+  ],
+  "cristo_supremo": [
+    [
+      "bendicion",
+      "Col 1:15-20, Col 2:9-10"
+    ]
+  ],
+  "familia": [
+    [
+      "bendicion",
+      "Col 3:18-21"
+    ],
+    [
+      "bendicion",
+      "Eph 5:22-33, Eph 6:1-4"
+    ]
+  ],
+  "vida_nueva": [
+    [
+      "bendicion",
+      "Col 3:1-3, Col 3:10"
+    ],
+    [
+      "bendicion",
+      "Tit 3:5-8"
+    ]
+  ],
+  "gratitud": [
+    [
+      "bendicion",
+      "Col 3:16-17, Col 4:2"
+    ]
+  ],
+  "legalismo": [
+    [
+      "advertencia",
+      "Col 2:20-23"
+    ],
+    [
+      "advertencia",
+      "Gal 1:6-9, Gal 3:1-3, Gal 5:2-4"
+    ]
+  ],
+  "ira_de_dios": [
+    [
+      "castigo",
+      "Col 3:6"
+    ],
+    [
+      "advertencia",
+      "Eph 5:6"
+    ],
+    [
+      "castigo",
+      "Rom 1:18, Rom 2:8, Rom 9:22"
+    ]
+  ],
+  "revelacion": [
+    [
+      "bendicion",
+      "Dn 2:28, Dn 10:1"
+    ],
+    [
+      "bendicion",
+      "Eph 3:5-6, Eph 3:18-19"
+    ],
+    [
+      "bendicion",
+      "Joh 1:14, Joh 14:21, Joh 16:13-15"
+    ],
+    [
+      "bendicion",
+      "Mat 11:25-27, Mat 16:17"
+    ]
+  ],
+  "humillacion": [
+    [
+      "castigo",
+      "Dn 4:33, Dn 5:20-21"
+    ],
+    [
+      "bendicion",
+      "Mat 18:4, Mat 23:12"
+    ]
+  ],
+  "caida_de_reinos": [
+    [
+      "castigo",
+      "Dn 5:25-28, Dn 7:26"
+    ]
+  ],
+  "obediencia": [
+    [
+      "bendicion",
+      "Dt 5:33, Dt 6:2, Dt 7:12-15, Dt 11:13-15"
+    ]
+  ],
+  "tierra_prometida": [
+    [
+      "bendicion",
+      "Dt 1:8, Dt 6:10-11, Dt 8:7-10, Dt 11:8-12"
+    ],
+    [
+      "bendicion",
+      "Ex 3:8, Ex 6:8, Ex 23:20-31, Ex 33:1"
+    ],
+    [
+      "bendicion",
+      "Gn 12:7, Gn 13:15, Gn 15:18-21, Gn 17:8, Gn 26:3, Gn 28:13"
+    ],
+    [
+      "bendicion",
+      "Jos 1:3, Jos 1:6, Jos 11:23, Jos 21:43-45"
+    ],
+    [
+      "bendicion",
+      "Nm 13:2, Nm 14:8, Nm 27:12, Nm 34:1-12"
+    ]
+  ],
+  "prosperidad": [
+    [
+      "bendicion",
+      "Dt 28:1-6, Dt 28:8, Dt 28:11-12"
+    ],
+    [
+      "bendicion",
+      "Ex 23:25-26"
+    ],
+    [
+      "bendicion",
+      "Hag 2:8-9"
+    ],
+    [
+      "bendicion",
+      "Job 1:2-3, Job 42:10-12"
+    ],
+    [
+      "bendicion",
+      "Lv 26:3-5, Lv 26:9-10"
+    ]
+  ],
+  "vida_larga": [
+    [
+      "bendicion",
+      "Dt 5:16, Dt 6:2, Dt 30:19-20"
+    ]
+  ],
+  "maldicion": [
+    [
+      "advertencia",
+      "Dt 28:16-19, Dt 28:20-24, Dt 28:25-68"
+    ]
+  ],
+  "endurecimiento": [
+    [
+      "advertencia",
+      "Dt 29:4"
+    ],
+    [
+      "advertencia",
+      "Ex 4:21, Ex 7:3"
+    ]
+  ],
+  "enfermedad": [
+    [
+      "castigo",
+      "Dt 28:21-22, Dt 28:27, Dt 28:35"
+    ],
+    [
+      "castigo",
+      "Job 2:7"
+    ],
+    [
+      "castigo",
+      "Lv 26:16"
+    ]
+  ],
+  "confusion": [
+    [
+      "castigo",
+      "Dt 28:28"
+    ],
+    [
+      "advertencia",
+      "Job 3:11, Job 10:1"
+    ],
+    [
+      "castigo",
+      "Jos 10:10"
+    ]
+  ],
+  "opresion": [
+    [
+      "castigo",
+      "Dt 28:29, Dt 28:33"
+    ],
+    [
+      "castigo",
+      "Jue 2:14-15, Jue 3:8, Jue 4:2-3, Jue 6:1"
+    ],
+    [
+      "castigo",
+      "Neh 4:11, Neh 9:37"
+    ],
+    [
+      "castigo",
+      "Sal 12:5, Sal 94:5-6"
+    ]
+  ],
+  "vanidad": [
+    [
+      "advertencia",
+      "Ec 1:2, Ec 1:14, Ec 2:11"
+    ]
+  ],
+  "eleccion": [
+    [
+      "bendicion",
+      "Eph 1:4-5, Eph 1:11"
+    ]
+  ],
+  "armadura_de_dios": [
+    [
+      "bendicion",
+      "Eph 6:11-18"
+    ]
+  ],
+  "perdicion_del_pecado": [
+    [
+      "bendicion",
+      "Eph 2:1-3"
+    ]
+  ],
+  "separacion_de_dios": [
+    [
+      "castigo",
+      "Eph 2:12"
+    ],
+    [
+      "castigo",
+      "Joh 3:36, Joh 15:6"
+    ]
+  ],
+  "providencia": [
+    [
+      "bendicion",
+      "Est 2:17, Est 4:14, Est 6:1"
+    ],
+    [
+      "bendicion",
+      "Rt 1:16, Rt 2:3, Rt 2:20"
+    ]
+  ],
+  "favor": [
+    [
+      "bendicion",
+      "Est 2:9, Est 5:2, Est 8:5"
+    ],
+    [
+      "bendicion",
+      "Esd 7:6, Esd 7:27-28"
+    ],
+    [
+      "bendicion",
+      "Neh 2:8"
+    ],
+    [
+      "bendicion",
+      "Rt 2:10, Rt 2:13"
+    ]
+  ],
+  "reversion": [
+    [
+      "bendicion",
+      "Est 6:11-13, Est 9:1"
+    ]
+  ],
+  "peligro": [
+    [
+      "advertencia",
+      "Est 3:6, Est 3:13"
+    ]
+  ],
+  "amenaza": [
+    [
+      "advertencia",
+      "Est 4:11, Est 7:4"
+    ]
+  ],
+  "plagas": [
+    [
+      "castigo",
+      "Ex 7:14-12:30"
+    ]
+  ],
+  "espiritu_nuevo": [
+    [
+      "bendicion",
+      "Ez 36:26, Ez 37:14"
+    ]
+  ],
+  "vida": [
+    [
+      "bendicion",
+      "Ez 18:9, Ez 33:14-16"
+    ]
+  ],
+  "mezcla_con_pueblos": [
+    [
+      "advertencia",
+      "Esd 9:1-2, Esd 10:10-11"
+    ],
+    [
+      "advertencia",
+      "Neh 13:1-3"
+    ]
+  ],
+  "oposicion": [
+    [
+      "castigo",
+      "Esd 4:1-5, Esd 4:23-24"
+    ]
+  ],
+  "justificacion": [
+    [
+      "bendicion",
+      "Gal 2:16, Gal 3:6-11, Gal 3:24"
+    ],
+    [
+      "bendicion",
+      "Rom 3:24-28, Rom 4:3-5, Rom 5:1"
+    ]
+  ],
+  "adopcion": [
+    [
+      "bendicion",
+      "Gal 4:4-7"
+    ],
+    [
+      "bendicion",
+      "Rom 8:14-17"
+    ]
+  ],
+  "siembra_y_cosecha": [
+    [
+      "bendicion",
+      "Gal 6:7-8"
+    ]
+  ],
+  "bendicion": [
+    [
+      "bendicion",
+      "Gal 3:9, Gal 3:14"
+    ],
+    [
+      "bendicion",
+      "Mal 3:10, Mal 4:2"
+    ],
+    [
+      "bendicion",
+      "Mat 5:3-12"
+    ],
+    [
+      "bendicion",
+      "Nm 6:24-26"
+    ]
+  ],
+  "falsos_evangelios": [
+    [
+      "advertencia",
+      "Gal 1:6-9"
+    ]
+  ],
+  "carne": [
+    [
+      "advertencia",
+      "Gal 5:19-21"
+    ]
+  ],
+  "redencion": [
+    [
+      "bendicion",
+      "Gn 3:15"
+    ],
+    [
+      "bendicion",
+      "Luc 1:68, Luc 2:38, Luc 21:28"
+    ],
+    [
+      "bendicion",
+      "Rt 2:12, Rt 3:10-13, Rt 4:14-17"
+    ]
+  ],
+  "preservacion": [
+    [
+      "bendicion",
+      "Gn 6:18"
+    ]
+  ],
+  "estabilidad_de_la_creacion": [
+    [
+      "bendicion",
+      "Gn 8:21-22"
+    ]
+  ],
+  "juicio_por_homicidio": [
+    [
+      "castigo",
+      "Gn 9:6"
+    ]
+  ],
+  "bendicion_naciones": [
+    [
+      "bendicion",
+      "Gn 12:2-3, Gn 18:18, Gn 22:18"
+    ]
+  ],
+  "juicio_sobre_naciones": [
+    [
+      "castigo",
+      "Gn 19:12-25"
+    ]
+  ],
+  "pecado_y_consecuencias": [
+    [
+      "advertencia",
+      "Gn 4:7"
+    ]
+  ],
+  "negligencia": [
+    [
+      "advertencia",
+      "Hag 1:4-6"
+    ],
+    [
+      "advertencia",
+      "Mat 25:14-30"
+    ]
+  ],
+  "nuevo_pacto": [
+    [
+      "bendicion",
+      "Heb 8:6-13, Heb 9:15, Heb 10:16-17"
+    ]
+  ],
+  "apostasía": [
+    [
+      "advertencia",
+      "Heb 2:1-3, Heb 3:12-14, Heb 6:4-6, Heb 10:26-31"
+    ],
+    [
+      "advertencia",
+      "Jud 1:4-7, Jud 1:11-13"
+    ]
+  ],
+  "infidelidad": [
+    [
+      "advertencia",
+      "Os 1:2, Os 4:12"
+    ],
+    [
+      "advertencia",
+      "Jos 24:20"
+    ],
+    [
+      "advertencia",
+      "Jue 2:20, Jue 8:33-34"
+    ],
+    [
+      "advertencia",
+      "Mal 1:6, Mal 2:8"
+    ]
+  ],
+  "salvacion_mesiánica": [
+    [
+      "bendicion",
+      "Is 53:5, Is 9:6-7"
+    ]
+  ],
+  "juicio_nacional": [
+    [
+      "castigo",
+      "Is 1:24-25, Is 13:11, Is 24:1-6"
+    ],
+    [
+      "castigo",
+      "Luc 19:41-44, Luc 21:20-24"
+    ],
+    [
+      "castigo",
+      "Mat 21:43, Mat 23:37-38, Mat 24:1-2"
+    ]
+  ],
+  "lengua": [
+    [
+      "advertencia",
+      "Jas 3:1-12"
+    ]
+  ],
+  "mundanalidad": [
+    [
+      "advertencia",
+      "Jas 4:4"
+    ]
+  ],
+  "prueba": [
+    [
+      "advertencia",
+      "Job 1:12, Job 2:6"
+    ]
+  ],
+  "afliccion": [
+    [
+      "castigo",
+      "Job 1:14-19, Job 2:7-8"
+    ]
+  ],
+  "intercesion": [
+    [
+      "bendicion",
+      "Job 42:8-9"
+    ]
+  ],
+  "derramamiento_espiritu": [
+    [
+      "bendicion",
+      "Jl 2:28-29"
+    ]
+  ],
+  "permanencia_en_cristo": [
+    [
+      "bendicion",
+      "Joh 8:31-32, Joh 15:4-7"
+    ]
+  ],
+  "odio_al_mundo": [
+    [
+      "advertencia",
+      "Joh 15:18-25"
+    ]
+  ],
+  "juicio_final": [
+    [
+      "castigo",
+      "Joh 5:28-29, Joh 12:48"
+    ],
+    [
+      "castigo",
+      "Rev 14:9-11, Rev 16:1-21, Rev 20:10-15"
+    ]
+  ],
+  "misericordia": [
+    [
+      "bendicion",
+      "Jon 3:10, Jon 4:2"
+    ],
+    [
+      "bendicion",
+      "Jud 1:2, Jud 1:22-23"
+    ],
+    [
+      "bendicion",
+      "Lam 3:22-23"
+    ],
+    [
+      "bendicion",
+      "Luc 1:50, Luc 1:54, Luc 6:36, Luc 10:37"
+    ],
+    [
+      "bendicion",
+      "Mat 5:7, Mat 9:13, Mat 12:7"
+    ]
+  ],
+  "tormenta": [
+    [
+      "castigo",
+      "Jon 1:4"
+    ]
+  ],
+  "descanso": [
+    [
+      "bendicion",
+      "Jos 1:13, Jos 21:44, Jos 22:4"
+    ],
+    [
+      "bendicion",
+      "Mat 11:28-30"
+    ]
+  ],
+  "rebeldia": [
+    [
+      "advertencia",
+      "Jud 1:8-10"
+    ],
+    [
+      "advertencia",
+      "Tit 3:9-11"
+    ]
+  ],
+  "exilio_local": [
+    [
+      "castigo",
+      "Jue 18:30, Jue 20:21"
+    ]
+  ],
+  "espiritu_de_dios": [
+    [
+      "bendicion",
+      "Jue 3:10, Jue 6:34, Jue 11:29, Jue 14:19"
+    ]
+  ],
+  "opresion_extranjera": [
+    [
+      "castigo",
+      "Jue 3:8, Jue 6:1, Jue 13:1"
+    ]
+  ],
+  "pecado_nacional": [
+    [
+      "advertencia",
+      "Lam 1:5, Lam 2:14"
+    ]
+  ],
+  "santidad": [
+    [
+      "bendicion",
+      "Lv 11:44-45, Lv 19:2, Lv 20:7-8"
+    ]
+  ],
+  "expiacion": [
+    [
+      "bendicion",
+      "Lv 16:30, Lv 17:11"
+    ]
+  ],
+  "impureza": [
+    [
+      "advertencia",
+      "Lv 11:43, Lv 18:24-30"
+    ]
+  ],
+  "profanacion": [
+    [
+      "advertencia",
+      "Lv 22:2-3, Lv 24:15-16"
+    ],
+    [
+      "advertencia",
+      "Neh 13:17-18"
+    ]
+  ],
+  "desolacion": [
+    [
+      "castigo",
+      "Lv 26:31-33"
+    ]
+  ],
+  "arrepentimiento": [
+    [
+      "advertencia",
+      "Luc 3:3, Luc 5:32, Luc 13:3-5, Luc 24:47"
+    ],
+    [
+      "advertencia",
+      "Mar 1:15"
+    ],
+    [
+      "advertencia",
+      "Mat 3:2, Mat 4:17, Mat 11:20-24"
+    ]
+  ],
+  "amor_al_dinero": [
+    [
+      "advertencia",
+      "Luc 12:15-21, Luc 16:13-15, Luc 18:22-25"
+    ],
+    [
+      "advertencia",
+      "Mar 10:17-25"
+    ],
+    [
+      "advertencia",
+      "Mat 6:19-24, Mat 19:23-24"
+    ]
+  ],
+  "escandalo": [
+    [
+      "advertencia",
+      "Luc 17:1-2"
+    ],
+    [
+      "advertencia",
+      "Mat 18:6-9"
+    ]
+  ],
+  "vigilancia": [
+    [
+      "advertencia",
+      "Luc 12:35-40, Luc 21:34-36"
+    ],
+    [
+      "advertencia",
+      "Mar 13:33-37"
+    ],
+    [
+      "advertencia",
+      "Mat 24:42-51, Mat 25:1-13"
+    ]
+  ],
+  "destruccion_nacional": [
+    [
+      "castigo",
+      "Nah 1:8, Nah 3:5-7"
+    ]
+  ],
+  "rebelion": [
+    [
+      "advertencia",
+      "Nm 12:9-10, Nm 14:26-35, Nm 16:1-35"
+    ]
+  ],
+  "exclusion": [
+    [
+      "castigo",
+      "Nm 20:12, Nm 27:12-14"
+    ]
+  ],
+  "juicio_naciones": [
+    [
+      "castigo",
+      "Abd 1:10-15"
+    ]
+  ],
+  "ansiedad": [
+    [
+      "advertencia",
+      "Phi 4:6"
+    ]
+  ],
+  "perdicion": [
+    [
+      "castigo",
+      "Phi 3:18-19"
+    ]
+  ],
+  "necedad": [
+    [
+      "advertencia",
+      "Pr 1:22-32, Pr 12:15"
+    ]
+  ],
+  "consecuencias": [
+    [
+      "castigo",
+      "Pr 5:22-23, Pr 13:15, Pr 29:1"
+    ]
+  ],
+  "impiedad": [
+    [
+      "advertencia",
+      "Sal 1:4-6, Sal 7:11"
+    ]
+  ],
+  "maldad": [
+    [
+      "advertencia",
+      "Sal 11:5, Sal 36:1-2"
+    ]
+  ],
+  "presencia_de_dios": [
+    [
+      "bendicion",
+      "Rev 21:3, Rev 22:3-4"
+    ]
+  ],
+  "recompensa": [
+    [
+      "bendicion",
+      "Rev 2:10, Rev 3:11-12, Rev 22:12"
+    ]
+  ],
+  "oracion": [
+    [
+      "bendicion",
+      "Rev 5:8, Rev 8:3-4"
+    ]
+  ],
+  "muerte_eterna": [
+    [
+      "castigo",
+      "Rev 20:14-15, Rev 21:8"
+    ]
+  ],
+  "buenas_obras": [
+    [
+      "bendicion",
+      "Tit 2:7-8, Tit 3:8"
+    ]
+  ]
+}
